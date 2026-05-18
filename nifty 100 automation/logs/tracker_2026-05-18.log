@@ -1,0 +1,1269 @@
+2026-05-18 14:32:44  INFO      ══════════════════════════════════════════════════════════════
+2026-05-18 14:32:44  INFO      NIFTY 100 Tracker  v1.0.0
+2026-05-18 14:32:44  INFO      Run date: 2026-05-18 | Tickers: 106 | Device: cpu
+2026-05-18 14:32:44  INFO      ══════════════════════════════════════════════════════════════
+2026-05-18 14:32:44  INFO      [1/106] Processing: HDFCBANK.NS
+2026-05-18 14:32:45  INFO      ─────────────────────────────────────────────────────────────────
+2026-05-18 14:32:45  INFO      [HDFCBANK.NS] Starting pipeline for 2026-05-18
+2026-05-18 14:32:45  INFO      Created Excel template: HDFCBANK.xlsx
+2026-05-18 14:32:45  INFO      [HDFCBANK.NS] Fetching price data…
+2026-05-18 14:32:45  WARNING   [HDFCBANK.NS] Data validation: 3 rows with zero volume — forward-filled
+2026-05-18 14:32:45  INFO      [HDFCBANK.NS] Engineering features (parallel aux fetch)…
+2026-05-18 14:32:57  INFO      [HDFCBANK.NS] Feature matrix: 571 rows × 31 cols
+2026-05-18 14:32:57  INFO      [HDFCBANK.NS] Training config: mode=retrain | epochs=30 | patience=8 | dir_weight=0.40 | reason=no saved model
+2026-05-18 14:32:57  INFO      [HDFCBANK.NS] Full training: epochs=30 patience=8 dir_weight=0.40
+2026-05-18 14:32:57  ERROR     [HDFCBANK.NS] Model training failed: train_model() got an unexpected keyword argument 'num_layers'
+2026-05-18 14:32:57  INFO      [HDFCBANK.NS] ✓ Row appended | Close=768.65 | TodayPred=0.00 | TomPred=0.00 | Err2=0.00% | Calib=—
+2026-05-18 14:32:59  INFO      [2/106] Processing: ICICIBANK.NS
+2026-05-18 14:32:59  INFO      ─────────────────────────────────────────────────────────────────
+2026-05-18 14:32:59  INFO      [ICICIBANK.NS] Starting pipeline for 2026-05-18
+2026-05-18 14:32:59  INFO      Created Excel template: ICICIBANK.xlsx
+2026-05-18 14:32:59  INFO      [ICICIBANK.NS] Fetching price data…
+2026-05-18 14:32:59  WARNING   [ICICIBANK.NS] Data validation: 3 rows with zero volume — forward-filled
+2026-05-18 14:32:59  INFO      [ICICIBANK.NS] Engineering features (parallel aux fetch)…
+2026-05-18 14:32:59  INFO      [ICICIBANK.NS] Feature matrix: 571 rows × 31 cols
+2026-05-18 14:32:59  INFO      [ICICIBANK.NS] Training config: mode=retrain | epochs=30 | patience=8 | dir_weight=0.40 | reason=no saved model
+2026-05-18 14:32:59  INFO      [ICICIBANK.NS] Full training: epochs=30 patience=8 dir_weight=0.40
+2026-05-18 14:32:59  ERROR     [ICICIBANK.NS] Model training failed: train_model() got an unexpected keyword argument 'num_layers'
+2026-05-18 14:32:59  INFO      [ICICIBANK.NS] ✓ Row appended | Close=1251.10 | TodayPred=0.00 | TomPred=0.00 | Err2=0.00% | Calib=—
+2026-05-18 14:33:01  INFO      [3/106] Processing: KOTAKBANK.NS
+2026-05-18 14:33:03  INFO      ─────────────────────────────────────────────────────────────────
+2026-05-18 14:33:03  INFO      [KOTAKBANK.NS] Starting pipeline for 2026-05-18
+2026-05-18 14:33:03  INFO      Created Excel template: KOTAKBANK.xlsx
+2026-05-18 14:33:03  INFO      [KOTAKBANK.NS] Fetching price data…
+2026-05-18 14:33:03  WARNING   [KOTAKBANK.NS] Data validation: 3 rows with zero volume — forward-filled
+2026-05-18 14:33:03  INFO      [KOTAKBANK.NS] Engineering features (parallel aux fetch)…
+2026-05-18 14:33:03  INFO      [KOTAKBANK.NS] Feature matrix: 571 rows × 31 cols
+2026-05-18 14:33:03  INFO      [KOTAKBANK.NS] Training config: mode=retrain | epochs=30 | patience=8 | dir_weight=0.40 | reason=no saved model
+2026-05-18 14:33:03  INFO      [KOTAKBANK.NS] Full training: epochs=30 patience=8 dir_weight=0.40
+2026-05-18 14:33:03  ERROR     [KOTAKBANK.NS] Model training failed: train_model() got an unexpected keyword argument 'num_layers'
+2026-05-18 14:33:03  INFO      [KOTAKBANK.NS] ✓ Row appended | Close=391.80 | TodayPred=0.00 | TomPred=0.00 | Err2=0.00% | Calib=—
+2026-05-18 14:33:04  INFO      [4/106] Processing: SBIN.NS
+2026-05-18 14:33:05  INFO      ─────────────────────────────────────────────────────────────────
+2026-05-18 14:33:05  INFO      [SBIN.NS] Starting pipeline for 2026-05-18
+2026-05-18 14:33:05  INFO      Created Excel template: SBIN.xlsx
+2026-05-18 14:33:05  INFO      [SBIN.NS] Fetching price data…
+2026-05-18 14:33:05  WARNING   [SBIN.NS] Data validation: 3 rows with zero volume — forward-filled
+2026-05-18 14:33:05  INFO      [SBIN.NS] Engineering features (parallel aux fetch)…
+2026-05-18 14:33:06  INFO      [SBIN.NS] Feature matrix: 571 rows × 31 cols
+2026-05-18 14:33:06  INFO      [SBIN.NS] Training config: mode=retrain | epochs=30 | patience=8 | dir_weight=0.40 | reason=no saved model
+2026-05-18 14:33:06  INFO      [SBIN.NS] Full training: epochs=30 patience=8 dir_weight=0.40
+2026-05-18 14:33:06  ERROR     [SBIN.NS] Model training failed: train_model() got an unexpected keyword argument 'num_layers'
+2026-05-18 14:33:06  INFO      [SBIN.NS] ✓ Row appended | Close=939.40 | TodayPred=0.00 | TomPred=0.00 | Err2=0.00% | Calib=—
+2026-05-18 14:33:07  INFO      [5/106] Processing: AXISBANK.NS
+2026-05-18 14:33:08  INFO      ─────────────────────────────────────────────────────────────────
+2026-05-18 14:33:08  INFO      [AXISBANK.NS] Starting pipeline for 2026-05-18
+2026-05-18 14:33:08  INFO      Created Excel template: AXISBANK.xlsx
+2026-05-18 14:33:08  INFO      [AXISBANK.NS] Fetching price data…
+2026-05-18 14:33:08  WARNING   [AXISBANK.NS] Data validation: 3 rows with zero volume — forward-filled
+2026-05-18 14:33:08  INFO      [AXISBANK.NS] Engineering features (parallel aux fetch)…
+2026-05-18 14:33:08  INFO      [AXISBANK.NS] Feature matrix: 571 rows × 31 cols
+2026-05-18 14:33:08  INFO      [AXISBANK.NS] Training config: mode=retrain | epochs=30 | patience=8 | dir_weight=0.40 | reason=no saved model
+2026-05-18 14:33:08  INFO      [AXISBANK.NS] Full training: epochs=30 patience=8 dir_weight=0.40
+2026-05-18 14:33:08  ERROR     [AXISBANK.NS] Model training failed: train_model() got an unexpected keyword argument 'num_layers'
+2026-05-18 14:33:08  INFO      [AXISBANK.NS] ✓ Row appended | Close=1237.90 | TodayPred=0.00 | TomPred=0.00 | Err2=0.00% | Calib=—
+2026-05-18 14:33:09  INFO      [6/106] Processing: BAJFINANCE.NS
+2026-05-18 14:33:10  INFO      ─────────────────────────────────────────────────────────────────
+2026-05-18 14:33:10  INFO      [BAJFINANCE.NS] Starting pipeline for 2026-05-18
+2026-05-18 14:33:10  INFO      Created Excel template: BAJFINANCE.xlsx
+2026-05-18 14:33:10  INFO      [BAJFINANCE.NS] Fetching price data…
+2026-05-18 14:33:10  WARNING   [BAJFINANCE.NS] Data validation: 3 rows with zero volume — forward-filled
+2026-05-18 14:33:10  INFO      [BAJFINANCE.NS] Engineering features (parallel aux fetch)…
+2026-05-18 14:33:10  INFO      [BAJFINANCE.NS] Feature matrix: 571 rows × 31 cols
+2026-05-18 14:33:11  INFO      [BAJFINANCE.NS] Training config: mode=retrain | epochs=30 | patience=8 | dir_weight=0.40 | reason=no saved model
+2026-05-18 14:33:11  INFO      [BAJFINANCE.NS] Full training: epochs=30 patience=8 dir_weight=0.40
+2026-05-18 14:33:11  ERROR     [BAJFINANCE.NS] Model training failed: train_model() got an unexpected keyword argument 'num_layers'
+2026-05-18 14:33:11  INFO      [BAJFINANCE.NS] ✓ Row appended | Close=921.10 | TodayPred=0.00 | TomPred=0.00 | Err2=0.00% | Calib=—
+2026-05-18 14:33:12  INFO      [7/106] Processing: BAJAJFINSV.NS
+2026-05-18 14:33:13  INFO      ─────────────────────────────────────────────────────────────────
+2026-05-18 14:33:13  INFO      [BAJAJFINSV.NS] Starting pipeline for 2026-05-18
+2026-05-18 14:33:13  INFO      Created Excel template: BAJAJFINSV.xlsx
+2026-05-18 14:33:13  INFO      [BAJAJFINSV.NS] Fetching price data…
+2026-05-18 14:33:13  WARNING   [BAJAJFINSV.NS] Data validation: 3 rows with zero volume — forward-filled
+2026-05-18 14:33:13  INFO      [BAJAJFINSV.NS] Engineering features (parallel aux fetch)…
+2026-05-18 14:33:13  INFO      [BAJAJFINSV.NS] Feature matrix: 571 rows × 31 cols
+2026-05-18 14:33:13  INFO      [BAJAJFINSV.NS] Training config: mode=retrain | epochs=30 | patience=8 | dir_weight=0.40 | reason=no saved model
+2026-05-18 14:33:13  INFO      [BAJAJFINSV.NS] Full training: epochs=30 patience=8 dir_weight=0.40
+2026-05-18 14:33:13  ERROR     [BAJAJFINSV.NS] Model training failed: train_model() got an unexpected keyword argument 'num_layers'
+2026-05-18 14:33:13  INFO      [BAJAJFINSV.NS] ✓ Row appended | Close=1753.10 | TodayPred=0.00 | TomPred=0.00 | Err2=0.00% | Calib=—
+2026-05-18 14:33:15  INFO      [8/106] Processing: HDFCLIFE.NS
+2026-05-18 14:33:15  INFO      ─────────────────────────────────────────────────────────────────
+2026-05-18 14:33:15  INFO      [HDFCLIFE.NS] Starting pipeline for 2026-05-18
+2026-05-18 14:33:15  INFO      Created Excel template: HDFCLIFE.xlsx
+2026-05-18 14:33:15  INFO      [HDFCLIFE.NS] Fetching price data…
+2026-05-18 14:33:16  WARNING   [HDFCLIFE.NS] Data validation: 3 rows with zero volume — forward-filled
+2026-05-18 14:33:16  INFO      [HDFCLIFE.NS] Engineering features (parallel aux fetch)…
+2026-05-18 14:33:16  INFO      [HDFCLIFE.NS] Feature matrix: 571 rows × 31 cols
+2026-05-18 14:33:16  INFO      [HDFCLIFE.NS] Training config: mode=retrain | epochs=30 | patience=8 | dir_weight=0.40 | reason=no saved model
+2026-05-18 14:33:16  INFO      [HDFCLIFE.NS] Full training: epochs=30 patience=8 dir_weight=0.40
+2026-05-18 14:33:16  ERROR     [HDFCLIFE.NS] Model training failed: train_model() got an unexpected keyword argument 'num_layers'
+2026-05-18 14:33:16  INFO      [HDFCLIFE.NS] ✓ Row appended | Close=604.95 | TodayPred=0.00 | TomPred=0.00 | Err2=0.00% | Calib=—
+2026-05-18 14:33:17  INFO      [9/106] Processing: SBILIFE.NS
+2026-05-18 14:33:18  INFO      ─────────────────────────────────────────────────────────────────
+2026-05-18 14:33:18  INFO      [SBILIFE.NS] Starting pipeline for 2026-05-18
+2026-05-18 14:33:18  INFO      Created Excel template: SBILIFE.xlsx
+2026-05-18 14:33:18  INFO      [SBILIFE.NS] Fetching price data…
+2026-05-18 14:33:18  WARNING   [SBILIFE.NS] Data validation: 3 rows with zero volume — forward-filled
+2026-05-18 14:33:18  INFO      [SBILIFE.NS] Engineering features (parallel aux fetch)…
+2026-05-18 14:33:18  INFO      [SBILIFE.NS] Feature matrix: 571 rows × 31 cols
+2026-05-18 14:33:18  INFO      [SBILIFE.NS] Training config: mode=retrain | epochs=30 | patience=8 | dir_weight=0.40 | reason=no saved model
+2026-05-18 14:33:18  INFO      [SBILIFE.NS] Full training: epochs=30 patience=8 dir_weight=0.40
+2026-05-18 14:33:18  ERROR     [SBILIFE.NS] Model training failed: train_model() got an unexpected keyword argument 'num_layers'
+2026-05-18 14:33:18  INFO      [SBILIFE.NS] ✓ Row appended | Close=1860.40 | TodayPred=0.00 | TomPred=0.00 | Err2=0.00% | Calib=—
+2026-05-18 14:33:20  INFO      [10/106] Processing: ICICIGI.NS
+2026-05-18 14:33:21  INFO      ─────────────────────────────────────────────────────────────────
+2026-05-18 14:33:21  INFO      [ICICIGI.NS] Starting pipeline for 2026-05-18
+2026-05-18 14:33:21  INFO      Created Excel template: ICICIGI.xlsx
+2026-05-18 14:33:21  INFO      [ICICIGI.NS] Fetching price data…
+2026-05-18 14:33:21  WARNING   [ICICIGI.NS] Data validation: 3 rows with zero volume — forward-filled
+2026-05-18 14:33:21  INFO      [ICICIGI.NS] Engineering features (parallel aux fetch)…
+2026-05-18 14:33:21  INFO      [ICICIGI.NS] Feature matrix: 571 rows × 31 cols
+2026-05-18 14:33:21  INFO      [ICICIGI.NS] Training config: mode=retrain | epochs=30 | patience=8 | dir_weight=0.40 | reason=no saved model
+2026-05-18 14:33:21  INFO      [ICICIGI.NS] Full training: epochs=30 patience=8 dir_weight=0.40
+2026-05-18 14:33:21  ERROR     [ICICIGI.NS] Model training failed: train_model() got an unexpected keyword argument 'num_layers'
+2026-05-18 14:33:21  INFO      [ICICIGI.NS] ✓ Row appended | Close=1813.00 | TodayPred=0.00 | TomPred=0.00 | Err2=0.00% | Calib=—
+2026-05-18 14:33:23  INFO      [11/106] Processing: INDUSINDBK.NS
+2026-05-18 14:33:23  INFO      ─────────────────────────────────────────────────────────────────
+2026-05-18 14:33:23  INFO      [INDUSINDBK.NS] Starting pipeline for 2026-05-18
+2026-05-18 14:33:23  INFO      Created Excel template: INDUSINDBK.xlsx
+2026-05-18 14:33:23  INFO      [INDUSINDBK.NS] Fetching price data…
+2026-05-18 14:33:24  WARNING   [INDUSINDBK.NS] Data validation: 3 rows with zero volume — forward-filled
+2026-05-18 14:33:24  INFO      [INDUSINDBK.NS] Engineering features (parallel aux fetch)…
+2026-05-18 14:33:24  INFO      [INDUSINDBK.NS] Feature matrix: 571 rows × 31 cols
+2026-05-18 14:33:24  INFO      [INDUSINDBK.NS] Training config: mode=retrain | epochs=30 | patience=8 | dir_weight=0.40 | reason=no saved model
+2026-05-18 14:33:24  INFO      [INDUSINDBK.NS] Full training: epochs=30 patience=8 dir_weight=0.40
+2026-05-18 14:33:24  ERROR     [INDUSINDBK.NS] Model training failed: train_model() got an unexpected keyword argument 'num_layers'
+2026-05-18 14:33:24  INFO      [INDUSINDBK.NS] ✓ Row appended | Close=892.15 | TodayPred=0.00 | TomPred=0.00 | Err2=0.00% | Calib=—
+2026-05-18 14:33:25  INFO      [12/106] Processing: FEDERALBNK.NS
+2026-05-18 14:33:26  INFO      ─────────────────────────────────────────────────────────────────
+2026-05-18 14:33:26  INFO      [FEDERALBNK.NS] Starting pipeline for 2026-05-18
+2026-05-18 14:33:26  INFO      Created Excel template: FEDERALBNK.xlsx
+2026-05-18 14:33:26  INFO      [FEDERALBNK.NS] Fetching price data…
+2026-05-18 14:33:26  WARNING   [FEDERALBNK.NS] Data validation: 3 rows with zero volume — forward-filled
+2026-05-18 14:33:26  INFO      [FEDERALBNK.NS] Engineering features (parallel aux fetch)…
+2026-05-18 14:33:26  INFO      [FEDERALBNK.NS] Feature matrix: 571 rows × 31 cols
+2026-05-18 14:33:26  INFO      [FEDERALBNK.NS] Training config: mode=retrain | epochs=30 | patience=8 | dir_weight=0.40 | reason=no saved model
+2026-05-18 14:33:26  INFO      [FEDERALBNK.NS] Full training: epochs=30 patience=8 dir_weight=0.40
+2026-05-18 14:33:26  ERROR     [FEDERALBNK.NS] Model training failed: train_model() got an unexpected keyword argument 'num_layers'
+2026-05-18 14:33:26  INFO      [FEDERALBNK.NS] ✓ Row appended | Close=283.95 | TodayPred=0.00 | TomPred=0.00 | Err2=0.00% | Calib=—
+2026-05-18 14:33:28  INFO      [13/106] Processing: BANDHANBNK.NS
+2026-05-18 14:33:28  INFO      ─────────────────────────────────────────────────────────────────
+2026-05-18 14:33:28  INFO      [BANDHANBNK.NS] Starting pipeline for 2026-05-18
+2026-05-18 14:33:28  INFO      Created Excel template: BANDHANBNK.xlsx
+2026-05-18 14:33:28  INFO      [BANDHANBNK.NS] Fetching price data…
+2026-05-18 14:33:29  WARNING   [BANDHANBNK.NS] Data validation: 3 rows with zero volume — forward-filled
+2026-05-18 14:33:29  INFO      [BANDHANBNK.NS] Engineering features (parallel aux fetch)…
+2026-05-18 14:33:29  INFO      [BANDHANBNK.NS] Feature matrix: 571 rows × 31 cols
+2026-05-18 14:33:29  INFO      [BANDHANBNK.NS] Training config: mode=retrain | epochs=30 | patience=8 | dir_weight=0.40 | reason=no saved model
+2026-05-18 14:33:29  INFO      [BANDHANBNK.NS] Full training: epochs=30 patience=8 dir_weight=0.40
+2026-05-18 14:33:29  ERROR     [BANDHANBNK.NS] Model training failed: train_model() got an unexpected keyword argument 'num_layers'
+2026-05-18 14:33:29  INFO      [BANDHANBNK.NS] ✓ Row appended | Close=190.34 | TodayPred=0.00 | TomPred=0.00 | Err2=0.00% | Calib=—
+2026-05-18 14:33:30  INFO      [14/106] Processing: PNB.NS
+2026-05-18 14:33:31  INFO      ─────────────────────────────────────────────────────────────────
+2026-05-18 14:33:31  INFO      [PNB.NS] Starting pipeline for 2026-05-18
+2026-05-18 14:33:31  INFO      Created Excel template: PNB.xlsx
+2026-05-18 14:33:31  INFO      [PNB.NS] Fetching price data…
+2026-05-18 14:33:31  WARNING   [PNB.NS] Data validation: 3 rows with zero volume — forward-filled
+2026-05-18 14:33:31  INFO      [PNB.NS] Engineering features (parallel aux fetch)…
+2026-05-18 14:33:31  INFO      [PNB.NS] Feature matrix: 571 rows × 31 cols
+2026-05-18 14:33:31  INFO      [PNB.NS] Training config: mode=retrain | epochs=30 | patience=8 | dir_weight=0.40 | reason=no saved model
+2026-05-18 14:33:31  INFO      [PNB.NS] Full training: epochs=30 patience=8 dir_weight=0.40
+2026-05-18 14:33:31  ERROR     [PNB.NS] Model training failed: train_model() got an unexpected keyword argument 'num_layers'
+2026-05-18 14:33:31  INFO      [PNB.NS] ✓ Row appended | Close=99.49 | TodayPred=0.00 | TomPred=0.00 | Err2=0.00% | Calib=—
+2026-05-18 14:33:33  INFO      [15/106] Processing: BANKBARODA.NS
+2026-05-18 14:33:33  INFO      ─────────────────────────────────────────────────────────────────
+2026-05-18 14:33:33  INFO      [BANKBARODA.NS] Starting pipeline for 2026-05-18
+2026-05-18 14:33:34  INFO      Created Excel template: BANKBARODA.xlsx
+2026-05-18 14:33:34  INFO      [BANKBARODA.NS] Fetching price data…
+2026-05-18 14:33:34  WARNING   [BANKBARODA.NS] Data validation: 3 rows with zero volume — forward-filled
+2026-05-18 14:33:34  INFO      [BANKBARODA.NS] Engineering features (parallel aux fetch)…
+2026-05-18 14:33:34  INFO      [BANKBARODA.NS] Feature matrix: 571 rows × 31 cols
+2026-05-18 14:33:34  INFO      [BANKBARODA.NS] Training config: mode=retrain | epochs=30 | patience=8 | dir_weight=0.40 | reason=no saved model
+2026-05-18 14:33:34  INFO      [BANKBARODA.NS] Full training: epochs=30 patience=8 dir_weight=0.40
+2026-05-18 14:33:34  ERROR     [BANKBARODA.NS] Model training failed: train_model() got an unexpected keyword argument 'num_layers'
+2026-05-18 14:33:34  INFO      [BANKBARODA.NS] ✓ Row appended | Close=260.05 | TodayPred=0.00 | TomPred=0.00 | Err2=0.00% | Calib=—
+2026-05-18 14:33:35  INFO      [16/106] Processing: CANBK.NS
+2026-05-18 14:33:36  INFO      ─────────────────────────────────────────────────────────────────
+2026-05-18 14:33:36  INFO      [CANBK.NS] Starting pipeline for 2026-05-18
+2026-05-18 14:33:36  INFO      Created Excel template: CANBK.xlsx
+2026-05-18 14:33:36  INFO      [CANBK.NS] Fetching price data…
+2026-05-18 14:33:36  WARNING   [CANBK.NS] Data validation: 3 rows with zero volume — forward-filled
+2026-05-18 14:33:36  INFO      [CANBK.NS] Engineering features (parallel aux fetch)…
+2026-05-18 14:33:37  INFO      [CANBK.NS] Feature matrix: 571 rows × 31 cols
+2026-05-18 14:33:37  INFO      [CANBK.NS] Training config: mode=retrain | epochs=30 | patience=8 | dir_weight=0.40 | reason=no saved model
+2026-05-18 14:33:37  INFO      [CANBK.NS] Full training: epochs=30 patience=8 dir_weight=0.40
+2026-05-18 14:33:37  ERROR     [CANBK.NS] Model training failed: train_model() got an unexpected keyword argument 'num_layers'
+2026-05-18 14:33:37  INFO      [CANBK.NS] ✓ Row appended | Close=124.90 | TodayPred=0.00 | TomPred=0.00 | Err2=0.00% | Calib=—
+2026-05-18 14:33:38  INFO      [17/106] Processing: MUTHOOTFIN.NS
+2026-05-18 14:33:39  INFO      ─────────────────────────────────────────────────────────────────
+2026-05-18 14:33:39  INFO      [MUTHOOTFIN.NS] Starting pipeline for 2026-05-18
+2026-05-18 14:33:39  INFO      Created Excel template: MUTHOOTFIN.xlsx
+2026-05-18 14:33:39  INFO      [MUTHOOTFIN.NS] Fetching price data…
+2026-05-18 14:33:39  WARNING   [MUTHOOTFIN.NS] Data validation: 3 rows with zero volume — forward-filled
+2026-05-18 14:33:39  INFO      [MUTHOOTFIN.NS] Engineering features (parallel aux fetch)…
+2026-05-18 14:33:39  INFO      [MUTHOOTFIN.NS] Feature matrix: 571 rows × 31 cols
+2026-05-18 14:33:39  INFO      [MUTHOOTFIN.NS] Training config: mode=retrain | epochs=30 | patience=8 | dir_weight=0.40 | reason=no saved model
+2026-05-18 14:33:39  INFO      [MUTHOOTFIN.NS] Full training: epochs=30 patience=8 dir_weight=0.40
+2026-05-18 14:33:39  ERROR     [MUTHOOTFIN.NS] Model training failed: train_model() got an unexpected keyword argument 'num_layers'
+2026-05-18 14:33:39  INFO      [MUTHOOTFIN.NS] ✓ Row appended | Close=3290.90 | TodayPred=0.00 | TomPred=0.00 | Err2=0.00% | Calib=—
+2026-05-18 14:33:40  INFO      [18/106] Processing: CHOLAFIN.NS
+2026-05-18 14:33:41  INFO      ─────────────────────────────────────────────────────────────────
+2026-05-18 14:33:41  INFO      [CHOLAFIN.NS] Starting pipeline for 2026-05-18
+2026-05-18 14:33:41  INFO      Created Excel template: CHOLAFIN.xlsx
+2026-05-18 14:33:41  INFO      [CHOLAFIN.NS] Fetching price data…
+2026-05-18 14:33:41  WARNING   [CHOLAFIN.NS] Data validation: 3 rows with zero volume — forward-filled
+2026-05-18 14:33:41  INFO      [CHOLAFIN.NS] Engineering features (parallel aux fetch)…
+2026-05-18 14:33:41  INFO      [CHOLAFIN.NS] Feature matrix: 571 rows × 31 cols
+2026-05-18 14:33:41  INFO      [CHOLAFIN.NS] Training config: mode=retrain | epochs=30 | patience=8 | dir_weight=0.40 | reason=no saved model
+2026-05-18 14:33:41  INFO      [CHOLAFIN.NS] Full training: epochs=30 patience=8 dir_weight=0.40
+2026-05-18 14:33:41  ERROR     [CHOLAFIN.NS] Model training failed: train_model() got an unexpected keyword argument 'num_layers'
+2026-05-18 14:33:41  INFO      [CHOLAFIN.NS] ✓ Row appended | Close=1527.90 | TodayPred=0.00 | TomPred=0.00 | Err2=0.00% | Calib=—
+2026-05-18 14:33:43  INFO      [19/106] Processing: SHRIRAMFIN.NS
+2026-05-18 14:33:44  INFO      ─────────────────────────────────────────────────────────────────
+2026-05-18 14:33:44  INFO      [SHRIRAMFIN.NS] Starting pipeline for 2026-05-18
+2026-05-18 14:33:44  INFO      Created Excel template: SHRIRAMFIN.xlsx
+2026-05-18 14:33:44  INFO      [SHRIRAMFIN.NS] Fetching price data…
+2026-05-18 14:33:44  WARNING   [SHRIRAMFIN.NS] Data validation: 3 rows with zero volume — forward-filled
+2026-05-18 14:33:44  INFO      [SHRIRAMFIN.NS] Engineering features (parallel aux fetch)…
+2026-05-18 14:33:44  INFO      [SHRIRAMFIN.NS] Feature matrix: 571 rows × 31 cols
+2026-05-18 14:33:44  INFO      [SHRIRAMFIN.NS] Training config: mode=retrain | epochs=30 | patience=8 | dir_weight=0.40 | reason=no saved model
+2026-05-18 14:33:44  INFO      [SHRIRAMFIN.NS] Full training: epochs=30 patience=8 dir_weight=0.40
+2026-05-18 14:33:44  ERROR     [SHRIRAMFIN.NS] Model training failed: train_model() got an unexpected keyword argument 'num_layers'
+2026-05-18 14:33:44  INFO      [SHRIRAMFIN.NS] ✓ Row appended | Close=933.70 | TodayPred=0.00 | TomPred=0.00 | Err2=0.00% | Calib=—
+2026-05-18 14:33:45  INFO      [20/106] Processing: TCS.NS
+2026-05-18 14:33:46  INFO      ─────────────────────────────────────────────────────────────────
+2026-05-18 14:33:46  INFO      [TCS.NS] Starting pipeline for 2026-05-18
+2026-05-18 14:33:46  INFO      Created Excel template: TCS.xlsx
+2026-05-18 14:33:46  INFO      [TCS.NS] Fetching price data…
+2026-05-18 14:33:46  WARNING   [TCS.NS] Data validation: 3 rows with zero volume — forward-filled
+2026-05-18 14:33:46  INFO      [TCS.NS] Engineering features (parallel aux fetch)…
+2026-05-18 14:33:46  INFO      [TCS.NS] Feature matrix: 571 rows × 31 cols
+2026-05-18 14:33:46  INFO      [TCS.NS] Training config: mode=retrain | epochs=30 | patience=8 | dir_weight=0.40 | reason=no saved model
+2026-05-18 14:33:46  INFO      [TCS.NS] Full training: epochs=30 patience=8 dir_weight=0.40
+2026-05-18 14:33:46  ERROR     [TCS.NS] Model training failed: train_model() got an unexpected keyword argument 'num_layers'
+2026-05-18 14:33:46  INFO      [TCS.NS] ✓ Row appended | Close=2283.20 | TodayPred=0.00 | TomPred=0.00 | Err2=0.00% | Calib=—
+2026-05-18 14:33:48  INFO      [21/106] Processing: INFY.NS
+2026-05-18 14:33:49  INFO      ─────────────────────────────────────────────────────────────────
+2026-05-18 14:33:49  INFO      [INFY.NS] Starting pipeline for 2026-05-18
+2026-05-18 14:33:49  INFO      Created Excel template: INFY.xlsx
+2026-05-18 14:33:49  INFO      [INFY.NS] Fetching price data…
+2026-05-18 14:33:49  WARNING   [INFY.NS] Data validation: 3 rows with zero volume — forward-filled
+2026-05-18 14:33:49  INFO      [INFY.NS] Engineering features (parallel aux fetch)…
+2026-05-18 14:33:49  INFO      [INFY.NS] Feature matrix: 571 rows × 31 cols
+2026-05-18 14:33:49  INFO      [INFY.NS] Training config: mode=retrain | epochs=30 | patience=8 | dir_weight=0.40 | reason=no saved model
+2026-05-18 14:33:49  INFO      [INFY.NS] Full training: epochs=30 patience=8 dir_weight=0.40
+2026-05-18 14:33:49  ERROR     [INFY.NS] Model training failed: train_model() got an unexpected keyword argument 'num_layers'
+2026-05-18 14:33:49  INFO      [INFY.NS] ✓ Row appended | Close=1142.50 | TodayPred=0.00 | TomPred=0.00 | Err2=0.00% | Calib=—
+2026-05-18 14:33:50  INFO      [22/106] Processing: HCLTECH.NS
+2026-05-18 14:33:51  INFO      ─────────────────────────────────────────────────────────────────
+2026-05-18 14:33:51  INFO      [HCLTECH.NS] Starting pipeline for 2026-05-18
+2026-05-18 14:33:51  INFO      Created Excel template: HCLTECH.xlsx
+2026-05-18 14:33:51  INFO      [HCLTECH.NS] Fetching price data…
+2026-05-18 14:33:51  WARNING   [HCLTECH.NS] Data validation: 3 rows with zero volume — forward-filled
+2026-05-18 14:33:51  INFO      [HCLTECH.NS] Engineering features (parallel aux fetch)…
+2026-05-18 14:33:51  INFO      [HCLTECH.NS] Feature matrix: 571 rows × 31 cols
+2026-05-18 14:33:51  INFO      [HCLTECH.NS] Training config: mode=retrain | epochs=30 | patience=8 | dir_weight=0.40 | reason=no saved model
+2026-05-18 14:33:51  INFO      [HCLTECH.NS] Full training: epochs=30 patience=8 dir_weight=0.40
+2026-05-18 14:33:51  ERROR     [HCLTECH.NS] Model training failed: train_model() got an unexpected keyword argument 'num_layers'
+2026-05-18 14:33:52  INFO      [HCLTECH.NS] ✓ Row appended | Close=1146.60 | TodayPred=0.00 | TomPred=0.00 | Err2=0.00% | Calib=—
+2026-05-18 14:33:53  INFO      [23/106] Processing: WIPRO.NS
+2026-05-18 14:33:54  INFO      ─────────────────────────────────────────────────────────────────
+2026-05-18 14:33:54  INFO      [WIPRO.NS] Starting pipeline for 2026-05-18
+2026-05-18 14:33:54  INFO      Created Excel template: WIPRO.xlsx
+2026-05-18 14:33:54  INFO      [WIPRO.NS] Fetching price data…
+2026-05-18 14:33:54  WARNING   [WIPRO.NS] Data validation: 3 rows with zero volume — forward-filled
+2026-05-18 14:33:54  INFO      [WIPRO.NS] Engineering features (parallel aux fetch)…
+2026-05-18 14:33:54  INFO      [WIPRO.NS] Feature matrix: 571 rows × 31 cols
+2026-05-18 14:33:54  INFO      [WIPRO.NS] Training config: mode=retrain | epochs=30 | patience=8 | dir_weight=0.40 | reason=no saved model
+2026-05-18 14:33:54  INFO      [WIPRO.NS] Full training: epochs=30 patience=8 dir_weight=0.40
+2026-05-18 14:33:54  ERROR     [WIPRO.NS] Model training failed: train_model() got an unexpected keyword argument 'num_layers'
+2026-05-18 14:33:54  INFO      [WIPRO.NS] ✓ Row appended | Close=192.17 | TodayPred=0.00 | TomPred=0.00 | Err2=0.00% | Calib=—
+2026-05-18 14:33:56  INFO      [24/106] Processing: TECHM.NS
+2026-05-18 14:33:56  INFO      ─────────────────────────────────────────────────────────────────
+2026-05-18 14:33:56  INFO      [TECHM.NS] Starting pipeline for 2026-05-18
+2026-05-18 14:33:56  INFO      Created Excel template: TECHM.xlsx
+2026-05-18 14:33:56  INFO      [TECHM.NS] Fetching price data…
+2026-05-18 14:33:56  WARNING   [TECHM.NS] Data validation: 3 rows with zero volume — forward-filled
+2026-05-18 14:33:56  INFO      [TECHM.NS] Engineering features (parallel aux fetch)…
+2026-05-18 14:33:57  INFO      [TECHM.NS] Feature matrix: 571 rows × 31 cols
+2026-05-18 14:33:57  INFO      [TECHM.NS] Training config: mode=retrain | epochs=30 | patience=8 | dir_weight=0.40 | reason=no saved model
+2026-05-18 14:33:57  INFO      [TECHM.NS] Full training: epochs=30 patience=8 dir_weight=0.40
+2026-05-18 14:33:57  ERROR     [TECHM.NS] Model training failed: train_model() got an unexpected keyword argument 'num_layers'
+2026-05-18 14:33:57  INFO      [TECHM.NS] ✓ Row appended | Close=1430.00 | TodayPred=0.00 | TomPred=0.00 | Err2=0.00% | Calib=—
+2026-05-18 14:33:58  INFO      [25/106] Processing: LTIM.NS
+2026-05-18 14:33:59  ERROR     HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: LTIM.NS"}}}
+2026-05-18 14:33:59  INFO      ─────────────────────────────────────────────────────────────────
+2026-05-18 14:33:59  INFO      [LTIM.NS] Starting pipeline for 2026-05-18
+2026-05-18 14:33:59  INFO      Created Excel template: LTIM.xlsx
+2026-05-18 14:33:59  INFO      [LTIM.NS] Fetching price data…
+2026-05-18 14:34:00  ERROR     HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: LTIM.NS"}}}
+2026-05-18 14:34:00  ERROR     $LTIM.NS: possibly delisted; no timezone found
+2026-05-18 14:34:00  ERROR     
+1 Failed download:
+2026-05-18 14:34:00  ERROR     ['LTIM.NS']: possibly delisted; no timezone found
+2026-05-18 14:34:00  ERROR     [LTIM.NS] No price data returned
+2026-05-18 14:34:02  INFO      [26/106] Processing: PERSISTENT.NS
+2026-05-18 14:34:02  INFO      ─────────────────────────────────────────────────────────────────
+2026-05-18 14:34:02  INFO      [PERSISTENT.NS] Starting pipeline for 2026-05-18
+2026-05-18 14:34:02  INFO      Created Excel template: PERSISTENT.xlsx
+2026-05-18 14:34:02  INFO      [PERSISTENT.NS] Fetching price data…
+2026-05-18 14:34:02  WARNING   [PERSISTENT.NS] Data validation: 3 rows with zero volume — forward-filled
+2026-05-18 14:34:02  INFO      [PERSISTENT.NS] Engineering features (parallel aux fetch)…
+2026-05-18 14:34:02  INFO      [PERSISTENT.NS] Feature matrix: 571 rows × 31 cols
+2026-05-18 14:34:02  INFO      [PERSISTENT.NS] Training config: mode=retrain | epochs=30 | patience=8 | dir_weight=0.40 | reason=no saved model
+2026-05-18 14:34:02  INFO      [PERSISTENT.NS] Full training: epochs=30 patience=8 dir_weight=0.40
+2026-05-18 14:34:02  ERROR     [PERSISTENT.NS] Model training failed: train_model() got an unexpected keyword argument 'num_layers'
+2026-05-18 14:34:02  INFO      [PERSISTENT.NS] ✓ Row appended | Close=4944.10 | TodayPred=0.00 | TomPred=0.00 | Err2=0.00% | Calib=—
+2026-05-18 14:34:04  INFO      [27/106] Processing: COFORGE.NS
+2026-05-18 14:34:05  INFO      ─────────────────────────────────────────────────────────────────
+2026-05-18 14:34:05  INFO      [COFORGE.NS] Starting pipeline for 2026-05-18
+2026-05-18 14:34:05  INFO      Created Excel template: COFORGE.xlsx
+2026-05-18 14:34:05  INFO      [COFORGE.NS] Fetching price data…
+2026-05-18 14:34:05  WARNING   [COFORGE.NS] Data validation: 3 rows with zero volume — forward-filled
+2026-05-18 14:34:05  INFO      [COFORGE.NS] Engineering features (parallel aux fetch)…
+2026-05-18 14:34:05  INFO      [COFORGE.NS] Feature matrix: 571 rows × 31 cols
+2026-05-18 14:34:05  INFO      [COFORGE.NS] Training config: mode=retrain | epochs=30 | patience=8 | dir_weight=0.40 | reason=no saved model
+2026-05-18 14:34:05  INFO      [COFORGE.NS] Full training: epochs=30 patience=8 dir_weight=0.40
+2026-05-18 14:34:05  ERROR     [COFORGE.NS] Model training failed: train_model() got an unexpected keyword argument 'num_layers'
+2026-05-18 14:34:05  INFO      [COFORGE.NS] ✓ Row appended | Close=1348.10 | TodayPred=0.00 | TomPred=0.00 | Err2=0.00% | Calib=—
+2026-05-18 14:34:07  INFO      [28/106] Processing: MPHASIS.NS
+2026-05-18 14:34:07  INFO      ─────────────────────────────────────────────────────────────────
+2026-05-18 14:34:07  INFO      [MPHASIS.NS] Starting pipeline for 2026-05-18
+2026-05-18 14:34:07  INFO      Created Excel template: MPHASIS.xlsx
+2026-05-18 14:34:07  INFO      [MPHASIS.NS] Fetching price data…
+2026-05-18 14:34:08  WARNING   [MPHASIS.NS] Data validation: 3 rows with zero volume — forward-filled
+2026-05-18 14:34:08  INFO      [MPHASIS.NS] Engineering features (parallel aux fetch)…
+2026-05-18 14:34:08  INFO      [MPHASIS.NS] Feature matrix: 571 rows × 31 cols
+2026-05-18 14:34:08  INFO      [MPHASIS.NS] Training config: mode=retrain | epochs=30 | patience=8 | dir_weight=0.40 | reason=no saved model
+2026-05-18 14:34:08  INFO      [MPHASIS.NS] Full training: epochs=30 patience=8 dir_weight=0.40
+2026-05-18 14:34:08  ERROR     [MPHASIS.NS] Model training failed: train_model() got an unexpected keyword argument 'num_layers'
+2026-05-18 14:34:08  INFO      [MPHASIS.NS] ✓ Row appended | Close=2148.50 | TodayPred=0.00 | TomPred=0.00 | Err2=0.00% | Calib=—
+2026-05-18 14:34:09  INFO      [29/106] Processing: RELIANCE.NS
+2026-05-18 14:34:10  INFO      ─────────────────────────────────────────────────────────────────
+2026-05-18 14:34:10  INFO      [RELIANCE.NS] Starting pipeline for 2026-05-18
+2026-05-18 14:34:10  INFO      Created Excel template: RELIANCE.xlsx
+2026-05-18 14:34:10  INFO      [RELIANCE.NS] Fetching price data…
+2026-05-18 14:34:10  WARNING   [RELIANCE.NS] Data validation: 3 rows with zero volume — forward-filled
+2026-05-18 14:34:10  INFO      [RELIANCE.NS] Engineering features (parallel aux fetch)…
+2026-05-18 14:34:10  INFO      [RELIANCE.NS] Feature matrix: 571 rows × 31 cols
+2026-05-18 14:34:10  INFO      [RELIANCE.NS] Training config: mode=retrain | epochs=30 | patience=8 | dir_weight=0.40 | reason=no saved model
+2026-05-18 14:34:10  INFO      [RELIANCE.NS] Full training: epochs=30 patience=8 dir_weight=0.40
+2026-05-18 14:34:10  ERROR     [RELIANCE.NS] Model training failed: train_model() got an unexpected keyword argument 'num_layers'
+2026-05-18 14:34:10  INFO      [RELIANCE.NS] ✓ Row appended | Close=1335.90 | TodayPred=0.00 | TomPred=0.00 | Err2=0.00% | Calib=—
+2026-05-18 14:34:12  INFO      [30/106] Processing: ONGC.NS
+2026-05-18 14:34:12  INFO      ─────────────────────────────────────────────────────────────────
+2026-05-18 14:34:12  INFO      [ONGC.NS] Starting pipeline for 2026-05-18
+2026-05-18 14:34:12  INFO      Created Excel template: ONGC.xlsx
+2026-05-18 14:34:12  INFO      [ONGC.NS] Fetching price data…
+2026-05-18 14:34:12  WARNING   [ONGC.NS] Data validation: 3 rows with zero volume — forward-filled
+2026-05-18 14:34:12  INFO      [ONGC.NS] Engineering features (parallel aux fetch)…
+2026-05-18 14:34:13  INFO      [ONGC.NS] Feature matrix: 571 rows × 31 cols
+2026-05-18 14:34:13  INFO      [ONGC.NS] Training config: mode=retrain | epochs=30 | patience=8 | dir_weight=0.40 | reason=no saved model
+2026-05-18 14:34:13  INFO      [ONGC.NS] Full training: epochs=30 patience=8 dir_weight=0.40
+2026-05-18 14:34:13  ERROR     [ONGC.NS] Model training failed: train_model() got an unexpected keyword argument 'num_layers'
+2026-05-18 14:34:13  INFO      [ONGC.NS] ✓ Row appended | Close=297.20 | TodayPred=0.00 | TomPred=0.00 | Err2=0.00% | Calib=—
+2026-05-18 14:34:14  INFO      [31/106] Processing: BPCL.NS
+2026-05-18 14:34:15  INFO      ─────────────────────────────────────────────────────────────────
+2026-05-18 14:34:15  INFO      [BPCL.NS] Starting pipeline for 2026-05-18
+2026-05-18 14:34:15  INFO      Created Excel template: BPCL.xlsx
+2026-05-18 14:34:15  INFO      [BPCL.NS] Fetching price data…
+2026-05-18 14:34:15  WARNING   [BPCL.NS] Data validation: 3 rows with zero volume — forward-filled
+2026-05-18 14:34:15  INFO      [BPCL.NS] Engineering features (parallel aux fetch)…
+2026-05-18 14:34:15  INFO      [BPCL.NS] Feature matrix: 571 rows × 31 cols
+2026-05-18 14:34:15  INFO      [BPCL.NS] Training config: mode=retrain | epochs=30 | patience=8 | dir_weight=0.40 | reason=no saved model
+2026-05-18 14:34:15  INFO      [BPCL.NS] Full training: epochs=30 patience=8 dir_weight=0.40
+2026-05-18 14:34:15  ERROR     [BPCL.NS] Model training failed: train_model() got an unexpected keyword argument 'num_layers'
+2026-05-18 14:34:15  INFO      [BPCL.NS] ✓ Row appended | Close=280.80 | TodayPred=0.00 | TomPred=0.00 | Err2=0.00% | Calib=—
+2026-05-18 14:34:17  INFO      [32/106] Processing: IOC.NS
+2026-05-18 14:34:17  INFO      ─────────────────────────────────────────────────────────────────
+2026-05-18 14:34:17  INFO      [IOC.NS] Starting pipeline for 2026-05-18
+2026-05-18 14:34:17  INFO      Created Excel template: IOC.xlsx
+2026-05-18 14:34:17  INFO      [IOC.NS] Fetching price data…
+2026-05-18 14:34:18  WARNING   [IOC.NS] Data validation: 3 rows with zero volume — forward-filled
+2026-05-18 14:34:18  INFO      [IOC.NS] Engineering features (parallel aux fetch)…
+2026-05-18 14:34:18  INFO      [IOC.NS] Feature matrix: 571 rows × 31 cols
+2026-05-18 14:34:18  INFO      [IOC.NS] Training config: mode=retrain | epochs=30 | patience=8 | dir_weight=0.40 | reason=no saved model
+2026-05-18 14:34:18  INFO      [IOC.NS] Full training: epochs=30 patience=8 dir_weight=0.40
+2026-05-18 14:34:18  ERROR     [IOC.NS] Model training failed: train_model() got an unexpected keyword argument 'num_layers'
+2026-05-18 14:34:18  INFO      [IOC.NS] ✓ Row appended | Close=131.81 | TodayPred=0.00 | TomPred=0.00 | Err2=0.00% | Calib=—
+2026-05-18 14:34:19  INFO      [33/106] Processing: NTPC.NS
+2026-05-18 14:34:20  INFO      ─────────────────────────────────────────────────────────────────
+2026-05-18 14:34:20  INFO      [NTPC.NS] Starting pipeline for 2026-05-18
+2026-05-18 14:34:20  INFO      Created Excel template: NTPC.xlsx
+2026-05-18 14:34:20  INFO      [NTPC.NS] Fetching price data…
+2026-05-18 14:34:20  WARNING   [NTPC.NS] Data validation: 3 rows with zero volume — forward-filled
+2026-05-18 14:34:20  INFO      [NTPC.NS] Engineering features (parallel aux fetch)…
+2026-05-18 14:34:20  INFO      [NTPC.NS] Feature matrix: 571 rows × 31 cols
+2026-05-18 14:34:20  INFO      [NTPC.NS] Training config: mode=retrain | epochs=30 | patience=8 | dir_weight=0.40 | reason=no saved model
+2026-05-18 14:34:20  INFO      [NTPC.NS] Full training: epochs=30 patience=8 dir_weight=0.40
+2026-05-18 14:34:20  ERROR     [NTPC.NS] Model training failed: train_model() got an unexpected keyword argument 'num_layers'
+2026-05-18 14:34:20  INFO      [NTPC.NS] ✓ Row appended | Close=388.30 | TodayPred=0.00 | TomPred=0.00 | Err2=0.00% | Calib=—
+2026-05-18 14:34:22  INFO      [34/106] Processing: POWERGRID.NS
+2026-05-18 14:34:22  INFO      ─────────────────────────────────────────────────────────────────
+2026-05-18 14:34:22  INFO      [POWERGRID.NS] Starting pipeline for 2026-05-18
+2026-05-18 14:34:22  INFO      Created Excel template: POWERGRID.xlsx
+2026-05-18 14:34:22  INFO      [POWERGRID.NS] Fetching price data…
+2026-05-18 14:34:22  WARNING   [POWERGRID.NS] Data validation: 3 rows with zero volume — forward-filled
+2026-05-18 14:34:22  INFO      [POWERGRID.NS] Engineering features (parallel aux fetch)…
+2026-05-18 14:34:23  INFO      [POWERGRID.NS] Feature matrix: 571 rows × 31 cols
+2026-05-18 14:34:23  INFO      [POWERGRID.NS] Training config: mode=retrain | epochs=30 | patience=8 | dir_weight=0.40 | reason=no saved model
+2026-05-18 14:34:23  INFO      [POWERGRID.NS] Full training: epochs=30 patience=8 dir_weight=0.40
+2026-05-18 14:34:23  ERROR     [POWERGRID.NS] Model training failed: train_model() got an unexpected keyword argument 'num_layers'
+2026-05-18 14:34:23  INFO      [POWERGRID.NS] ✓ Row appended | Close=296.55 | TodayPred=0.00 | TomPred=0.00 | Err2=0.00% | Calib=—
+2026-05-18 14:34:24  INFO      [35/106] Processing: ADANIGREEN.NS
+2026-05-18 14:34:25  INFO      ─────────────────────────────────────────────────────────────────
+2026-05-18 14:34:25  INFO      [ADANIGREEN.NS] Starting pipeline for 2026-05-18
+2026-05-18 14:34:25  INFO      Created Excel template: ADANIGREEN.xlsx
+2026-05-18 14:34:25  INFO      [ADANIGREEN.NS] Fetching price data…
+2026-05-18 14:34:25  WARNING   [ADANIGREEN.NS] Data validation: 3 rows with zero volume — forward-filled
+2026-05-18 14:34:25  INFO      [ADANIGREEN.NS] Engineering features (parallel aux fetch)…
+2026-05-18 14:34:25  INFO      [ADANIGREEN.NS] Feature matrix: 571 rows × 31 cols
+2026-05-18 14:34:25  INFO      [ADANIGREEN.NS] Training config: mode=retrain | epochs=30 | patience=8 | dir_weight=0.40 | reason=no saved model
+2026-05-18 14:34:25  INFO      [ADANIGREEN.NS] Full training: epochs=30 patience=8 dir_weight=0.40
+2026-05-18 14:34:25  ERROR     [ADANIGREEN.NS] Model training failed: train_model() got an unexpected keyword argument 'num_layers'
+2026-05-18 14:34:25  INFO      [ADANIGREEN.NS] ✓ Row appended | Close=1369.00 | TodayPred=0.00 | TomPred=0.00 | Err2=0.00% | Calib=—
+2026-05-18 14:34:27  INFO      [36/106] Processing: ADANITRANS.NS
+2026-05-18 14:34:27  INFO      ─────────────────────────────────────────────────────────────────
+2026-05-18 14:34:27  INFO      [ADANITRANS.NS] Starting pipeline for 2026-05-18
+2026-05-18 14:34:27  INFO      Created Excel template: ADANITRANS.xlsx
+2026-05-18 14:34:27  INFO      [ADANITRANS.NS] Fetching price data…
+2026-05-18 14:34:28  ERROR     $ADANITRANS.NS: possibly delisted; no timezone found
+2026-05-18 14:34:28  ERROR     
+1 Failed download:
+2026-05-18 14:34:28  ERROR     ['ADANITRANS.NS']: possibly delisted; no timezone found
+2026-05-18 14:34:28  ERROR     [ADANITRANS.NS] No price data returned
+2026-05-18 14:34:30  INFO      [37/106] Processing: TATAPOWER.NS
+2026-05-18 14:34:30  INFO      ─────────────────────────────────────────────────────────────────
+2026-05-18 14:34:30  INFO      [TATAPOWER.NS] Starting pipeline for 2026-05-18
+2026-05-18 14:34:30  INFO      Created Excel template: TATAPOWER.xlsx
+2026-05-18 14:34:30  INFO      [TATAPOWER.NS] Fetching price data…
+2026-05-18 14:34:30  WARNING   [TATAPOWER.NS] Data validation: 3 rows with zero volume — forward-filled
+2026-05-18 14:34:30  INFO      [TATAPOWER.NS] Engineering features (parallel aux fetch)…
+2026-05-18 14:34:30  INFO      [TATAPOWER.NS] Feature matrix: 571 rows × 31 cols
+2026-05-18 14:34:30  INFO      [TATAPOWER.NS] Training config: mode=retrain | epochs=30 | patience=8 | dir_weight=0.40 | reason=no saved model
+2026-05-18 14:34:30  INFO      [TATAPOWER.NS] Full training: epochs=30 patience=8 dir_weight=0.40
+2026-05-18 14:34:30  ERROR     [TATAPOWER.NS] Model training failed: train_model() got an unexpected keyword argument 'num_layers'
+2026-05-18 14:34:30  INFO      [TATAPOWER.NS] ✓ Row appended | Close=404.35 | TodayPred=0.00 | TomPred=0.00 | Err2=0.00% | Calib=—
+2026-05-18 14:34:32  INFO      [38/106] Processing: GAIL.NS
+2026-05-18 14:34:33  INFO      ─────────────────────────────────────────────────────────────────
+2026-05-18 14:34:33  INFO      [GAIL.NS] Starting pipeline for 2026-05-18
+2026-05-18 14:34:33  INFO      Created Excel template: GAIL.xlsx
+2026-05-18 14:34:33  INFO      [GAIL.NS] Fetching price data…
+2026-05-18 14:34:33  WARNING   [GAIL.NS] Data validation: 3 rows with zero volume — forward-filled
+2026-05-18 14:34:33  INFO      [GAIL.NS] Engineering features (parallel aux fetch)…
+2026-05-18 14:34:33  INFO      [GAIL.NS] Feature matrix: 571 rows × 31 cols
+2026-05-18 14:34:33  INFO      [GAIL.NS] Training config: mode=retrain | epochs=30 | patience=8 | dir_weight=0.40 | reason=no saved model
+2026-05-18 14:34:33  INFO      [GAIL.NS] Full training: epochs=30 patience=8 dir_weight=0.40
+2026-05-18 14:34:33  ERROR     [GAIL.NS] Model training failed: train_model() got an unexpected keyword argument 'num_layers'
+2026-05-18 14:34:33  INFO      [GAIL.NS] ✓ Row appended | Close=160.22 | TodayPred=0.00 | TomPred=0.00 | Err2=0.00% | Calib=—
+2026-05-18 14:34:34  INFO      [39/106] Processing: HINDUNILVR.NS
+2026-05-18 14:34:35  INFO      ─────────────────────────────────────────────────────────────────
+2026-05-18 14:34:35  INFO      [HINDUNILVR.NS] Starting pipeline for 2026-05-18
+2026-05-18 14:34:35  INFO      Created Excel template: HINDUNILVR.xlsx
+2026-05-18 14:34:35  INFO      [HINDUNILVR.NS] Fetching price data…
+2026-05-18 14:34:36  WARNING   [HINDUNILVR.NS] Data validation: 3 rows with zero volume — forward-filled
+2026-05-18 14:34:36  INFO      [HINDUNILVR.NS] Engineering features (parallel aux fetch)…
+2026-05-18 14:34:36  INFO      [HINDUNILVR.NS] Feature matrix: 571 rows × 31 cols
+2026-05-18 14:34:36  INFO      [HINDUNILVR.NS] Training config: mode=retrain | epochs=30 | patience=8 | dir_weight=0.40 | reason=no saved model
+2026-05-18 14:34:36  INFO      [HINDUNILVR.NS] Full training: epochs=30 patience=8 dir_weight=0.40
+2026-05-18 14:34:36  ERROR     [HINDUNILVR.NS] Model training failed: train_model() got an unexpected keyword argument 'num_layers'
+2026-05-18 14:34:36  INFO      [HINDUNILVR.NS] ✓ Row appended | Close=2254.20 | TodayPred=0.00 | TomPred=0.00 | Err2=0.00% | Calib=—
+2026-05-18 14:34:37  INFO      [40/106] Processing: ITC.NS
+2026-05-18 14:34:38  INFO      ─────────────────────────────────────────────────────────────────
+2026-05-18 14:34:38  INFO      [ITC.NS] Starting pipeline for 2026-05-18
+2026-05-18 14:34:38  INFO      Created Excel template: ITC.xlsx
+2026-05-18 14:34:38  INFO      [ITC.NS] Fetching price data…
+2026-05-18 14:34:38  WARNING   [ITC.NS] Data validation: 2 rows with zero volume — forward-filled
+2026-05-18 14:34:38  INFO      [ITC.NS] Engineering features (parallel aux fetch)…
+2026-05-18 14:34:38  INFO      [ITC.NS] Feature matrix: 571 rows × 31 cols
+2026-05-18 14:34:38  INFO      [ITC.NS] Training config: mode=retrain | epochs=30 | patience=8 | dir_weight=0.40 | reason=no saved model
+2026-05-18 14:34:38  INFO      [ITC.NS] Full training: epochs=30 patience=8 dir_weight=0.40
+2026-05-18 14:34:38  ERROR     [ITC.NS] Model training failed: train_model() got an unexpected keyword argument 'num_layers'
+2026-05-18 14:34:38  INFO      [ITC.NS] ✓ Row appended | Close=310.15 | TodayPred=0.00 | TomPred=0.00 | Err2=0.00% | Calib=—
+2026-05-18 14:34:40  INFO      [41/106] Processing: NESTLEIND.NS
+2026-05-18 14:34:41  INFO      ─────────────────────────────────────────────────────────────────
+2026-05-18 14:34:41  INFO      [NESTLEIND.NS] Starting pipeline for 2026-05-18
+2026-05-18 14:34:41  INFO      Created Excel template: NESTLEIND.xlsx
+2026-05-18 14:34:41  INFO      [NESTLEIND.NS] Fetching price data…
+2026-05-18 14:34:41  WARNING   [NESTLEIND.NS] Data validation: 3 rows with zero volume — forward-filled
+2026-05-18 14:34:41  INFO      [NESTLEIND.NS] Engineering features (parallel aux fetch)…
+2026-05-18 14:34:41  INFO      [NESTLEIND.NS] Feature matrix: 571 rows × 31 cols
+2026-05-18 14:34:41  INFO      [NESTLEIND.NS] Training config: mode=retrain | epochs=30 | patience=8 | dir_weight=0.40 | reason=no saved model
+2026-05-18 14:34:41  INFO      [NESTLEIND.NS] Full training: epochs=30 patience=8 dir_weight=0.40
+2026-05-18 14:34:41  ERROR     [NESTLEIND.NS] Model training failed: train_model() got an unexpected keyword argument 'num_layers'
+2026-05-18 14:34:41  INFO      [NESTLEIND.NS] ✓ Row appended | Close=1431.70 | TodayPred=0.00 | TomPred=0.00 | Err2=0.00% | Calib=—
+2026-05-18 14:34:42  INFO      [42/106] Processing: DABUR.NS
+2026-05-18 14:34:43  INFO      ─────────────────────────────────────────────────────────────────
+2026-05-18 14:34:43  INFO      [DABUR.NS] Starting pipeline for 2026-05-18
+2026-05-18 14:34:43  INFO      Created Excel template: DABUR.xlsx
+2026-05-18 14:34:43  INFO      [DABUR.NS] Fetching price data…
+2026-05-18 14:34:43  WARNING   [DABUR.NS] Data validation: 3 rows with zero volume — forward-filled
+2026-05-18 14:34:43  INFO      [DABUR.NS] Engineering features (parallel aux fetch)…
+2026-05-18 14:34:43  INFO      [DABUR.NS] Feature matrix: 571 rows × 31 cols
+2026-05-18 14:34:43  INFO      [DABUR.NS] Training config: mode=retrain | epochs=30 | patience=8 | dir_weight=0.40 | reason=no saved model
+2026-05-18 14:34:43  INFO      [DABUR.NS] Full training: epochs=30 patience=8 dir_weight=0.40
+2026-05-18 14:34:43  ERROR     [DABUR.NS] Model training failed: train_model() got an unexpected keyword argument 'num_layers'
+2026-05-18 14:34:43  INFO      [DABUR.NS] ✓ Row appended | Close=456.35 | TodayPred=0.00 | TomPred=0.00 | Err2=0.00% | Calib=—
+2026-05-18 14:34:45  INFO      [43/106] Processing: MARICO.NS
+2026-05-18 14:34:46  INFO      ─────────────────────────────────────────────────────────────────
+2026-05-18 14:34:46  INFO      [MARICO.NS] Starting pipeline for 2026-05-18
+2026-05-18 14:34:46  INFO      Created Excel template: MARICO.xlsx
+2026-05-18 14:34:46  INFO      [MARICO.NS] Fetching price data…
+2026-05-18 14:34:46  WARNING   [MARICO.NS] Data validation: 3 rows with zero volume — forward-filled
+2026-05-18 14:34:46  INFO      [MARICO.NS] Engineering features (parallel aux fetch)…
+2026-05-18 14:34:46  INFO      [MARICO.NS] Feature matrix: 571 rows × 31 cols
+2026-05-18 14:34:46  INFO      [MARICO.NS] Training config: mode=retrain | epochs=30 | patience=8 | dir_weight=0.40 | reason=no saved model
+2026-05-18 14:34:46  INFO      [MARICO.NS] Full training: epochs=30 patience=8 dir_weight=0.40
+2026-05-18 14:34:46  ERROR     [MARICO.NS] Model training failed: train_model() got an unexpected keyword argument 'num_layers'
+2026-05-18 14:34:46  INFO      [MARICO.NS] ✓ Row appended | Close=833.75 | TodayPred=0.00 | TomPred=0.00 | Err2=0.00% | Calib=—
+2026-05-18 14:34:48  INFO      [44/106] Processing: GODREJCP.NS
+2026-05-18 14:34:48  INFO      ─────────────────────────────────────────────────────────────────
+2026-05-18 14:34:48  INFO      [GODREJCP.NS] Starting pipeline for 2026-05-18
+2026-05-18 14:34:48  INFO      Created Excel template: GODREJCP.xlsx
+2026-05-18 14:34:48  INFO      [GODREJCP.NS] Fetching price data…
+2026-05-18 14:34:49  WARNING   [GODREJCP.NS] Data validation: 3 rows with zero volume — forward-filled
+2026-05-18 14:34:49  INFO      [GODREJCP.NS] Engineering features (parallel aux fetch)…
+2026-05-18 14:34:49  INFO      [GODREJCP.NS] Feature matrix: 571 rows × 31 cols
+2026-05-18 14:34:49  INFO      [GODREJCP.NS] Training config: mode=retrain | epochs=30 | patience=8 | dir_weight=0.40 | reason=no saved model
+2026-05-18 14:34:49  INFO      [GODREJCP.NS] Full training: epochs=30 patience=8 dir_weight=0.40
+2026-05-18 14:34:49  ERROR     [GODREJCP.NS] Model training failed: train_model() got an unexpected keyword argument 'num_layers'
+2026-05-18 14:34:49  INFO      [GODREJCP.NS] ✓ Row appended | Close=1014.40 | TodayPred=0.00 | TomPred=0.00 | Err2=0.00% | Calib=—
+2026-05-18 14:34:50  INFO      [45/106] Processing: BRITANNIA.NS
+2026-05-18 14:34:51  INFO      ─────────────────────────────────────────────────────────────────
+2026-05-18 14:34:51  INFO      [BRITANNIA.NS] Starting pipeline for 2026-05-18
+2026-05-18 14:34:51  INFO      Created Excel template: BRITANNIA.xlsx
+2026-05-18 14:34:51  INFO      [BRITANNIA.NS] Fetching price data…
+2026-05-18 14:34:51  WARNING   [BRITANNIA.NS] Data validation: 3 rows with zero volume — forward-filled
+2026-05-18 14:34:51  INFO      [BRITANNIA.NS] Engineering features (parallel aux fetch)…
+2026-05-18 14:34:51  INFO      [BRITANNIA.NS] Feature matrix: 571 rows × 31 cols
+2026-05-18 14:34:51  INFO      [BRITANNIA.NS] Training config: mode=retrain | epochs=30 | patience=8 | dir_weight=0.40 | reason=no saved model
+2026-05-18 14:34:51  INFO      [BRITANNIA.NS] Full training: epochs=30 patience=8 dir_weight=0.40
+2026-05-18 14:34:51  ERROR     [BRITANNIA.NS] Model training failed: train_model() got an unexpected keyword argument 'num_layers'
+2026-05-18 14:34:51  INFO      [BRITANNIA.NS] ✓ Row appended | Close=5380.50 | TodayPred=0.00 | TomPred=0.00 | Err2=0.00% | Calib=—
+2026-05-18 14:34:53  INFO      [46/106] Processing: COLPAL.NS
+2026-05-18 14:34:53  INFO      ─────────────────────────────────────────────────────────────────
+2026-05-18 14:34:53  INFO      [COLPAL.NS] Starting pipeline for 2026-05-18
+2026-05-18 14:34:53  INFO      Created Excel template: COLPAL.xlsx
+2026-05-18 14:34:53  INFO      [COLPAL.NS] Fetching price data…
+2026-05-18 14:34:53  WARNING   [COLPAL.NS] Data validation: 3 rows with zero volume — forward-filled
+2026-05-18 14:34:53  INFO      [COLPAL.NS] Engineering features (parallel aux fetch)…
+2026-05-18 14:34:54  INFO      [COLPAL.NS] Feature matrix: 571 rows × 31 cols
+2026-05-18 14:34:54  INFO      [COLPAL.NS] Training config: mode=retrain | epochs=30 | patience=8 | dir_weight=0.40 | reason=no saved model
+2026-05-18 14:34:54  INFO      [COLPAL.NS] Full training: epochs=30 patience=8 dir_weight=0.40
+2026-05-18 14:34:54  ERROR     [COLPAL.NS] Model training failed: train_model() got an unexpected keyword argument 'num_layers'
+2026-05-18 14:34:54  INFO      [COLPAL.NS] ✓ Row appended | Close=2151.20 | TodayPred=0.00 | TomPred=0.00 | Err2=0.00% | Calib=—
+2026-05-18 14:34:55  INFO      [47/106] Processing: EMAMILTD.NS
+2026-05-18 14:34:56  INFO      ─────────────────────────────────────────────────────────────────
+2026-05-18 14:34:56  INFO      [EMAMILTD.NS] Starting pipeline for 2026-05-18
+2026-05-18 14:34:56  INFO      Created Excel template: EMAMILTD.xlsx
+2026-05-18 14:34:56  INFO      [EMAMILTD.NS] Fetching price data…
+2026-05-18 14:34:57  WARNING   [EMAMILTD.NS] Data validation: 3 rows with zero volume — forward-filled
+2026-05-18 14:34:57  INFO      [EMAMILTD.NS] Engineering features (parallel aux fetch)…
+2026-05-18 14:34:57  INFO      [EMAMILTD.NS] Feature matrix: 571 rows × 31 cols
+2026-05-18 14:34:57  INFO      [EMAMILTD.NS] Training config: mode=retrain | epochs=30 | patience=8 | dir_weight=0.40 | reason=no saved model
+2026-05-18 14:34:57  INFO      [EMAMILTD.NS] Full training: epochs=30 patience=8 dir_weight=0.40
+2026-05-18 14:34:57  ERROR     [EMAMILTD.NS] Model training failed: train_model() got an unexpected keyword argument 'num_layers'
+2026-05-18 14:34:57  INFO      [EMAMILTD.NS] ✓ Row appended | Close=422.30 | TodayPred=0.00 | TomPred=0.00 | Err2=0.00% | Calib=—
+2026-05-18 14:34:58  INFO      [48/106] Processing: LT.NS
+2026-05-18 14:34:59  INFO      ─────────────────────────────────────────────────────────────────
+2026-05-18 14:34:59  INFO      [LT.NS] Starting pipeline for 2026-05-18
+2026-05-18 14:34:59  INFO      Created Excel template: LT.xlsx
+2026-05-18 14:34:59  INFO      [LT.NS] Fetching price data…
+2026-05-18 14:34:59  WARNING   [LT.NS] Data validation: 3 rows with zero volume — forward-filled
+2026-05-18 14:34:59  INFO      [LT.NS] Engineering features (parallel aux fetch)…
+2026-05-18 14:34:59  INFO      [LT.NS] Feature matrix: 571 rows × 31 cols
+2026-05-18 14:34:59  INFO      [LT.NS] Training config: mode=retrain | epochs=30 | patience=8 | dir_weight=0.40 | reason=no saved model
+2026-05-18 14:34:59  INFO      [LT.NS] Full training: epochs=30 patience=8 dir_weight=0.40
+2026-05-18 14:34:59  ERROR     [LT.NS] Model training failed: train_model() got an unexpected keyword argument 'num_layers'
+2026-05-18 14:34:59  INFO      [LT.NS] ✓ Row appended | Close=3917.80 | TodayPred=0.00 | TomPred=0.00 | Err2=0.00% | Calib=—
+2026-05-18 14:35:01  INFO      [49/106] Processing: ADANIENT.NS
+2026-05-18 14:35:02  INFO      ─────────────────────────────────────────────────────────────────
+2026-05-18 14:35:02  INFO      [ADANIENT.NS] Starting pipeline for 2026-05-18
+2026-05-18 14:35:02  INFO      Created Excel template: ADANIENT.xlsx
+2026-05-18 14:35:02  INFO      [ADANIENT.NS] Fetching price data…
+2026-05-18 14:35:02  WARNING   [ADANIENT.NS] Data validation: 3 rows with zero volume — forward-filled
+2026-05-18 14:35:02  INFO      [ADANIENT.NS] Engineering features (parallel aux fetch)…
+2026-05-18 14:35:02  INFO      [ADANIENT.NS] Feature matrix: 571 rows × 31 cols
+2026-05-18 14:35:02  INFO      [ADANIENT.NS] Training config: mode=retrain | epochs=30 | patience=8 | dir_weight=0.40 | reason=no saved model
+2026-05-18 14:35:02  INFO      [ADANIENT.NS] Full training: epochs=30 patience=8 dir_weight=0.40
+2026-05-18 14:35:02  ERROR     [ADANIENT.NS] Model training failed: train_model() got an unexpected keyword argument 'num_layers'
+2026-05-18 14:35:02  INFO      [ADANIENT.NS] ✓ Row appended | Close=2689.80 | TodayPred=0.00 | TomPred=0.00 | Err2=0.00% | Calib=—
+2026-05-18 14:35:04  INFO      [50/106] Processing: ADANIPORTS.NS
+2026-05-18 14:35:04  INFO      ─────────────────────────────────────────────────────────────────
+2026-05-18 14:35:04  INFO      [ADANIPORTS.NS] Starting pipeline for 2026-05-18
+2026-05-18 14:35:04  INFO      Created Excel template: ADANIPORTS.xlsx
+2026-05-18 14:35:04  INFO      [ADANIPORTS.NS] Fetching price data…
+2026-05-18 14:35:05  WARNING   [ADANIPORTS.NS] Data validation: 3 rows with zero volume — forward-filled
+2026-05-18 14:35:05  INFO      [ADANIPORTS.NS] Engineering features (parallel aux fetch)…
+2026-05-18 14:35:05  INFO      [ADANIPORTS.NS] Feature matrix: 571 rows × 31 cols
+2026-05-18 14:35:05  INFO      [ADANIPORTS.NS] Training config: mode=retrain | epochs=30 | patience=8 | dir_weight=0.40 | reason=no saved model
+2026-05-18 14:35:05  INFO      [ADANIPORTS.NS] Full training: epochs=30 patience=8 dir_weight=0.40
+2026-05-18 14:35:05  ERROR     [ADANIPORTS.NS] Model training failed: train_model() got an unexpected keyword argument 'num_layers'
+2026-05-18 14:35:05  INFO      [ADANIPORTS.NS] ✓ Row appended | Close=1787.70 | TodayPred=0.00 | TomPred=0.00 | Err2=0.00% | Calib=—
+2026-05-18 14:35:06  INFO      [51/106] Processing: SIEMENS.NS
+2026-05-18 14:35:07  INFO      ─────────────────────────────────────────────────────────────────
+2026-05-18 14:35:07  INFO      [SIEMENS.NS] Starting pipeline for 2026-05-18
+2026-05-18 14:35:07  INFO      Created Excel template: SIEMENS.xlsx
+2026-05-18 14:35:07  INFO      [SIEMENS.NS] Fetching price data…
+2026-05-18 14:35:07  WARNING   [SIEMENS.NS] Data validation: 2 rows with zero volume — forward-filled
+2026-05-18 14:35:07  INFO      [SIEMENS.NS] Engineering features (parallel aux fetch)…
+2026-05-18 14:35:07  INFO      [SIEMENS.NS] Feature matrix: 571 rows × 31 cols
+2026-05-18 14:35:07  INFO      [SIEMENS.NS] Training config: mode=retrain | epochs=30 | patience=8 | dir_weight=0.40 | reason=no saved model
+2026-05-18 14:35:07  INFO      [SIEMENS.NS] Full training: epochs=30 patience=8 dir_weight=0.40
+2026-05-18 14:35:07  ERROR     [SIEMENS.NS] Model training failed: train_model() got an unexpected keyword argument 'num_layers'
+2026-05-18 14:35:07  INFO      [SIEMENS.NS] ✓ Row appended | Close=3535.10 | TodayPred=0.00 | TomPred=0.00 | Err2=0.00% | Calib=—
+2026-05-18 14:35:09  INFO      [52/106] Processing: ABB.NS
+2026-05-18 14:35:10  INFO      ─────────────────────────────────────────────────────────────────
+2026-05-18 14:35:10  INFO      [ABB.NS] Starting pipeline for 2026-05-18
+2026-05-18 14:35:10  INFO      Created Excel template: ABB.xlsx
+2026-05-18 14:35:10  INFO      [ABB.NS] Fetching price data…
+2026-05-18 14:35:10  WARNING   [ABB.NS] Data validation: 3 rows with zero volume — forward-filled
+2026-05-18 14:35:10  INFO      [ABB.NS] Engineering features (parallel aux fetch)…
+2026-05-18 14:35:10  INFO      [ABB.NS] Feature matrix: 571 rows × 31 cols
+2026-05-18 14:35:10  INFO      [ABB.NS] Training config: mode=retrain | epochs=30 | patience=8 | dir_weight=0.40 | reason=no saved model
+2026-05-18 14:35:10  INFO      [ABB.NS] Full training: epochs=30 patience=8 dir_weight=0.40
+2026-05-18 14:35:10  ERROR     [ABB.NS] Model training failed: train_model() got an unexpected keyword argument 'num_layers'
+2026-05-18 14:35:10  INFO      [ABB.NS] ✓ Row appended | Close=6413.50 | TodayPred=0.00 | TomPred=0.00 | Err2=0.00% | Calib=—
+2026-05-18 14:35:12  INFO      [53/106] Processing: HAVELLS.NS
+2026-05-18 14:35:12  INFO      ─────────────────────────────────────────────────────────────────
+2026-05-18 14:35:12  INFO      [HAVELLS.NS] Starting pipeline for 2026-05-18
+2026-05-18 14:35:12  INFO      Created Excel template: HAVELLS.xlsx
+2026-05-18 14:35:12  INFO      [HAVELLS.NS] Fetching price data…
+2026-05-18 14:35:13  WARNING   [HAVELLS.NS] Data validation: 3 rows with zero volume — forward-filled
+2026-05-18 14:35:13  INFO      [HAVELLS.NS] Engineering features (parallel aux fetch)…
+2026-05-18 14:35:13  INFO      [HAVELLS.NS] Feature matrix: 571 rows × 31 cols
+2026-05-18 14:35:13  INFO      [HAVELLS.NS] Training config: mode=retrain | epochs=30 | patience=8 | dir_weight=0.40 | reason=no saved model
+2026-05-18 14:35:13  INFO      [HAVELLS.NS] Full training: epochs=30 patience=8 dir_weight=0.40
+2026-05-18 14:35:13  ERROR     [HAVELLS.NS] Model training failed: train_model() got an unexpected keyword argument 'num_layers'
+2026-05-18 14:35:13  INFO      [HAVELLS.NS] ✓ Row appended | Close=1194.80 | TodayPred=0.00 | TomPred=0.00 | Err2=0.00% | Calib=—
+2026-05-18 14:35:14  INFO      [54/106] Processing: BHEL.NS
+2026-05-18 14:35:15  INFO      ─────────────────────────────────────────────────────────────────
+2026-05-18 14:35:15  INFO      [BHEL.NS] Starting pipeline for 2026-05-18
+2026-05-18 14:35:15  INFO      Created Excel template: BHEL.xlsx
+2026-05-18 14:35:15  INFO      [BHEL.NS] Fetching price data…
+2026-05-18 14:35:15  WARNING   [BHEL.NS] Data validation: 3 rows with zero volume — forward-filled
+2026-05-18 14:35:15  INFO      [BHEL.NS] Engineering features (parallel aux fetch)…
+2026-05-18 14:35:15  INFO      [BHEL.NS] Feature matrix: 571 rows × 31 cols
+2026-05-18 14:35:15  INFO      [BHEL.NS] Training config: mode=retrain | epochs=30 | patience=8 | dir_weight=0.40 | reason=no saved model
+2026-05-18 14:35:15  INFO      [BHEL.NS] Full training: epochs=30 patience=8 dir_weight=0.40
+2026-05-18 14:35:15  ERROR     [BHEL.NS] Model training failed: train_model() got an unexpected keyword argument 'num_layers'
+2026-05-18 14:35:16  INFO      [BHEL.NS] ✓ Row appended | Close=395.25 | TodayPred=0.00 | TomPred=0.00 | Err2=0.00% | Calib=—
+2026-05-18 14:35:17  INFO      [55/106] Processing: CUMMINSIND.NS
+2026-05-18 14:35:18  INFO      ─────────────────────────────────────────────────────────────────
+2026-05-18 14:35:18  INFO      [CUMMINSIND.NS] Starting pipeline for 2026-05-18
+2026-05-18 14:35:18  INFO      Created Excel template: CUMMINSIND.xlsx
+2026-05-18 14:35:18  INFO      [CUMMINSIND.NS] Fetching price data…
+2026-05-18 14:35:18  WARNING   [CUMMINSIND.NS] Data validation: 3 rows with zero volume — forward-filled
+2026-05-18 14:35:18  INFO      [CUMMINSIND.NS] Engineering features (parallel aux fetch)…
+2026-05-18 14:35:18  INFO      [CUMMINSIND.NS] Feature matrix: 571 rows × 31 cols
+2026-05-18 14:35:18  INFO      [CUMMINSIND.NS] Training config: mode=retrain | epochs=30 | patience=8 | dir_weight=0.40 | reason=no saved model
+2026-05-18 14:35:18  INFO      [CUMMINSIND.NS] Full training: epochs=30 patience=8 dir_weight=0.40
+2026-05-18 14:35:18  ERROR     [CUMMINSIND.NS] Model training failed: train_model() got an unexpected keyword argument 'num_layers'
+2026-05-18 14:35:18  INFO      [CUMMINSIND.NS] ✓ Row appended | Close=5298.50 | TodayPred=0.00 | TomPred=0.00 | Err2=0.00% | Calib=—
+2026-05-18 14:35:19  INFO      [56/106] Processing: THERMAX.NS
+2026-05-18 14:35:20  INFO      ─────────────────────────────────────────────────────────────────
+2026-05-18 14:35:20  INFO      [THERMAX.NS] Starting pipeline for 2026-05-18
+2026-05-18 14:35:20  INFO      Created Excel template: THERMAX.xlsx
+2026-05-18 14:35:20  INFO      [THERMAX.NS] Fetching price data…
+2026-05-18 14:35:21  WARNING   [THERMAX.NS] Data validation: 2 rows with zero volume — forward-filled
+2026-05-18 14:35:21  INFO      [THERMAX.NS] Engineering features (parallel aux fetch)…
+2026-05-18 14:35:21  INFO      [THERMAX.NS] Feature matrix: 571 rows × 31 cols
+2026-05-18 14:35:21  INFO      [THERMAX.NS] Training config: mode=retrain | epochs=30 | patience=8 | dir_weight=0.40 | reason=no saved model
+2026-05-18 14:35:21  INFO      [THERMAX.NS] Full training: epochs=30 patience=8 dir_weight=0.40
+2026-05-18 14:35:21  ERROR     [THERMAX.NS] Model training failed: train_model() got an unexpected keyword argument 'num_layers'
+2026-05-18 14:35:21  INFO      [THERMAX.NS] ✓ Row appended | Close=4393.30 | TodayPred=0.00 | TomPred=0.00 | Err2=0.00% | Calib=—
+2026-05-18 14:35:22  INFO      [57/106] Processing: MARUTI.NS
+2026-05-18 14:35:23  INFO      ─────────────────────────────────────────────────────────────────
+2026-05-18 14:35:23  INFO      [MARUTI.NS] Starting pipeline for 2026-05-18
+2026-05-18 14:35:23  INFO      Created Excel template: MARUTI.xlsx
+2026-05-18 14:35:23  INFO      [MARUTI.NS] Fetching price data…
+2026-05-18 14:35:23  WARNING   [MARUTI.NS] Data validation: 3 rows with zero volume — forward-filled
+2026-05-18 14:35:23  INFO      [MARUTI.NS] Engineering features (parallel aux fetch)…
+2026-05-18 14:35:24  INFO      [MARUTI.NS] Feature matrix: 571 rows × 31 cols
+2026-05-18 14:35:24  INFO      [MARUTI.NS] Training config: mode=retrain | epochs=30 | patience=8 | dir_weight=0.40 | reason=no saved model
+2026-05-18 14:35:24  INFO      [MARUTI.NS] Full training: epochs=30 patience=8 dir_weight=0.40
+2026-05-18 14:35:24  ERROR     [MARUTI.NS] Model training failed: train_model() got an unexpected keyword argument 'num_layers'
+2026-05-18 14:35:24  INFO      [MARUTI.NS] ✓ Row appended | Close=13016.00 | TodayPred=0.00 | TomPred=0.00 | Err2=0.00% | Calib=—
+2026-05-18 14:35:25  INFO      [58/106] Processing: TATAMOTORS.NS
+2026-05-18 14:35:26  ERROR     HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: TATAMOTORS.NS"}}}
+2026-05-18 14:35:26  INFO      ─────────────────────────────────────────────────────────────────
+2026-05-18 14:35:26  INFO      [TATAMOTORS.NS] Starting pipeline for 2026-05-18
+2026-05-18 14:35:26  INFO      Created Excel template: TATAMOTORS.xlsx
+2026-05-18 14:35:26  INFO      [TATAMOTORS.NS] Fetching price data…
+2026-05-18 14:35:26  ERROR     $TATAMOTORS.NS: possibly delisted; no timezone found
+2026-05-18 14:35:26  ERROR     
+1 Failed download:
+2026-05-18 14:35:26  ERROR     ['TATAMOTORS.NS']: possibly delisted; no timezone found
+2026-05-18 14:35:26  ERROR     [TATAMOTORS.NS] No price data returned
+2026-05-18 14:35:28  INFO      [59/106] Processing: M&M.NS
+2026-05-18 14:35:28  INFO      ─────────────────────────────────────────────────────────────────
+2026-05-18 14:35:28  INFO      [M&M.NS] Starting pipeline for 2026-05-18
+2026-05-18 14:35:28  INFO      Created Excel template: M&M.xlsx
+2026-05-18 14:35:28  INFO      [M&M.NS] Fetching price data…
+2026-05-18 14:35:29  WARNING   [M&M.NS] Data validation: 4 rows with zero volume — forward-filled
+2026-05-18 14:35:29  INFO      [M&M.NS] Engineering features (parallel aux fetch)…
+2026-05-18 14:35:29  INFO      [M&M.NS] Feature matrix: 571 rows × 31 cols
+2026-05-18 14:35:29  INFO      [M&M.NS] Training config: mode=retrain | epochs=30 | patience=8 | dir_weight=0.40 | reason=no saved model
+2026-05-18 14:35:29  INFO      [M&M.NS] Full training: epochs=30 patience=8 dir_weight=0.40
+2026-05-18 14:35:29  ERROR     [M&M.NS] Model training failed: train_model() got an unexpected keyword argument 'num_layers'
+2026-05-18 14:35:29  INFO      [M&M.NS] ✓ Row appended | Close=3083.70 | TodayPred=0.00 | TomPred=0.00 | Err2=0.00% | Calib=—
+2026-05-18 14:35:30  INFO      [60/106] Processing: BAJAJ-AUTO.NS
+2026-05-18 14:35:31  INFO      ─────────────────────────────────────────────────────────────────
+2026-05-18 14:35:31  INFO      [BAJAJ-AUTO.NS] Starting pipeline for 2026-05-18
+2026-05-18 14:35:31  INFO      Created Excel template: BAJAJ-AUTO.xlsx
+2026-05-18 14:35:31  INFO      [BAJAJ-AUTO.NS] Fetching price data…
+2026-05-18 14:35:31  WARNING   [BAJAJ-AUTO.NS] Data validation: 3 rows with zero volume — forward-filled
+2026-05-18 14:35:31  INFO      [BAJAJ-AUTO.NS] Engineering features (parallel aux fetch)…
+2026-05-18 14:35:31  INFO      [BAJAJ-AUTO.NS] Feature matrix: 571 rows × 31 cols
+2026-05-18 14:35:31  INFO      [BAJAJ-AUTO.NS] Training config: mode=retrain | epochs=30 | patience=8 | dir_weight=0.40 | reason=no saved model
+2026-05-18 14:35:31  INFO      [BAJAJ-AUTO.NS] Full training: epochs=30 patience=8 dir_weight=0.40
+2026-05-18 14:35:31  ERROR     [BAJAJ-AUTO.NS] Model training failed: train_model() got an unexpected keyword argument 'num_layers'
+2026-05-18 14:35:31  INFO      [BAJAJ-AUTO.NS] ✓ Row appended | Close=10198.50 | TodayPred=0.00 | TomPred=0.00 | Err2=0.00% | Calib=—
+2026-05-18 14:35:33  INFO      [61/106] Processing: EICHERMOT.NS
+2026-05-18 14:35:34  INFO      ─────────────────────────────────────────────────────────────────
+2026-05-18 14:35:34  INFO      [EICHERMOT.NS] Starting pipeline for 2026-05-18
+2026-05-18 14:35:34  INFO      Created Excel template: EICHERMOT.xlsx
+2026-05-18 14:35:34  INFO      [EICHERMOT.NS] Fetching price data…
+2026-05-18 14:35:34  WARNING   [EICHERMOT.NS] Data validation: 3 rows with zero volume — forward-filled
+2026-05-18 14:35:34  INFO      [EICHERMOT.NS] Engineering features (parallel aux fetch)…
+2026-05-18 14:35:34  INFO      [EICHERMOT.NS] Feature matrix: 571 rows × 31 cols
+2026-05-18 14:35:34  INFO      [EICHERMOT.NS] Training config: mode=retrain | epochs=30 | patience=8 | dir_weight=0.40 | reason=no saved model
+2026-05-18 14:35:34  INFO      [EICHERMOT.NS] Full training: epochs=30 patience=8 dir_weight=0.40
+2026-05-18 14:35:34  ERROR     [EICHERMOT.NS] Model training failed: train_model() got an unexpected keyword argument 'num_layers'
+2026-05-18 14:35:34  INFO      [EICHERMOT.NS] ✓ Row appended | Close=6913.00 | TodayPred=0.00 | TomPred=0.00 | Err2=0.00% | Calib=—
+2026-05-18 14:35:36  INFO      [62/106] Processing: HEROMOTOCO.NS
+2026-05-18 14:35:36  INFO      ─────────────────────────────────────────────────────────────────
+2026-05-18 14:35:36  INFO      [HEROMOTOCO.NS] Starting pipeline for 2026-05-18
+2026-05-18 14:35:36  INFO      Created Excel template: HEROMOTOCO.xlsx
+2026-05-18 14:35:36  INFO      [HEROMOTOCO.NS] Fetching price data…
+2026-05-18 14:35:37  WARNING   [HEROMOTOCO.NS] Data validation: 3 rows with zero volume — forward-filled
+2026-05-18 14:35:37  INFO      [HEROMOTOCO.NS] Engineering features (parallel aux fetch)…
+2026-05-18 14:35:37  INFO      [HEROMOTOCO.NS] Feature matrix: 571 rows × 31 cols
+2026-05-18 14:35:37  INFO      [HEROMOTOCO.NS] Training config: mode=retrain | epochs=30 | patience=8 | dir_weight=0.40 | reason=no saved model
+2026-05-18 14:35:37  INFO      [HEROMOTOCO.NS] Full training: epochs=30 patience=8 dir_weight=0.40
+2026-05-18 14:35:37  ERROR     [HEROMOTOCO.NS] Model training failed: train_model() got an unexpected keyword argument 'num_layers'
+2026-05-18 14:35:37  INFO      [HEROMOTOCO.NS] ✓ Row appended | Close=4957.00 | TodayPred=0.00 | TomPred=0.00 | Err2=0.00% | Calib=—
+2026-05-18 14:35:38  INFO      [63/106] Processing: TVSMOTORS.NS
+2026-05-18 14:35:39  ERROR     HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: TVSMOTORS.NS"}}}
+2026-05-18 14:35:39  INFO      ─────────────────────────────────────────────────────────────────
+2026-05-18 14:35:39  INFO      [TVSMOTORS.NS] Starting pipeline for 2026-05-18
+2026-05-18 14:35:39  INFO      Created Excel template: TVSMOTORS.xlsx
+2026-05-18 14:35:39  INFO      [TVSMOTORS.NS] Fetching price data…
+2026-05-18 14:35:39  ERROR     $TVSMOTORS.NS: possibly delisted; no timezone found
+2026-05-18 14:35:39  ERROR     
+1 Failed download:
+2026-05-18 14:35:39  ERROR     ['TVSMOTORS.NS']: possibly delisted; no timezone found
+2026-05-18 14:35:39  ERROR     [TVSMOTORS.NS] No price data returned
+2026-05-18 14:35:41  INFO      [64/106] Processing: ASHOKLEY.NS
+2026-05-18 14:35:41  INFO      ─────────────────────────────────────────────────────────────────
+2026-05-18 14:35:41  INFO      [ASHOKLEY.NS] Starting pipeline for 2026-05-18
+2026-05-18 14:35:41  INFO      Created Excel template: ASHOKLEY.xlsx
+2026-05-18 14:35:41  INFO      [ASHOKLEY.NS] Fetching price data…
+2026-05-18 14:35:42  WARNING   [ASHOKLEY.NS] Data validation: 3 rows with zero volume — forward-filled
+2026-05-18 14:35:42  INFO      [ASHOKLEY.NS] Engineering features (parallel aux fetch)…
+2026-05-18 14:35:42  INFO      [ASHOKLEY.NS] Feature matrix: 571 rows × 31 cols
+2026-05-18 14:35:42  INFO      [ASHOKLEY.NS] Training config: mode=retrain | epochs=30 | patience=8 | dir_weight=0.40 | reason=no saved model
+2026-05-18 14:35:42  INFO      [ASHOKLEY.NS] Full training: epochs=30 patience=8 dir_weight=0.40
+2026-05-18 14:35:42  ERROR     [ASHOKLEY.NS] Model training failed: train_model() got an unexpected keyword argument 'num_layers'
+2026-05-18 14:35:42  INFO      [ASHOKLEY.NS] ✓ Row appended | Close=151.14 | TodayPred=0.00 | TomPred=0.00 | Err2=0.00% | Calib=—
+2026-05-18 14:35:43  INFO      [65/106] Processing: SUNPHARMA.NS
+2026-05-18 14:35:44  INFO      ─────────────────────────────────────────────────────────────────
+2026-05-18 14:35:44  INFO      [SUNPHARMA.NS] Starting pipeline for 2026-05-18
+2026-05-18 14:35:44  INFO      Created Excel template: SUNPHARMA.xlsx
+2026-05-18 14:35:44  INFO      [SUNPHARMA.NS] Fetching price data…
+2026-05-18 14:35:44  WARNING   [SUNPHARMA.NS] Data validation: 3 rows with zero volume — forward-filled
+2026-05-18 14:35:44  INFO      [SUNPHARMA.NS] Engineering features (parallel aux fetch)…
+2026-05-18 14:35:45  INFO      [SUNPHARMA.NS] Feature matrix: 571 rows × 31 cols
+2026-05-18 14:35:45  INFO      [SUNPHARMA.NS] Training config: mode=retrain | epochs=30 | patience=8 | dir_weight=0.40 | reason=no saved model
+2026-05-18 14:35:45  INFO      [SUNPHARMA.NS] Full training: epochs=30 patience=8 dir_weight=0.40
+2026-05-18 14:35:45  ERROR     [SUNPHARMA.NS] Model training failed: train_model() got an unexpected keyword argument 'num_layers'
+2026-05-18 14:35:45  INFO      [SUNPHARMA.NS] ✓ Row appended | Close=1905.80 | TodayPred=0.00 | TomPred=0.00 | Err2=0.00% | Calib=—
+2026-05-18 14:35:46  INFO      [66/106] Processing: DRREDDY.NS
+2026-05-18 14:35:47  INFO      ─────────────────────────────────────────────────────────────────
+2026-05-18 14:35:47  INFO      [DRREDDY.NS] Starting pipeline for 2026-05-18
+2026-05-18 14:35:47  INFO      Created Excel template: DRREDDY.xlsx
+2026-05-18 14:35:47  INFO      [DRREDDY.NS] Fetching price data…
+2026-05-18 14:35:47  WARNING   [DRREDDY.NS] Data validation: 3 rows with zero volume — forward-filled
+2026-05-18 14:35:47  INFO      [DRREDDY.NS] Engineering features (parallel aux fetch)…
+2026-05-18 14:35:47  INFO      [DRREDDY.NS] Feature matrix: 571 rows × 31 cols
+2026-05-18 14:35:47  INFO      [DRREDDY.NS] Training config: mode=retrain | epochs=30 | patience=8 | dir_weight=0.40 | reason=no saved model
+2026-05-18 14:35:47  INFO      [DRREDDY.NS] Full training: epochs=30 patience=8 dir_weight=0.40
+2026-05-18 14:35:47  ERROR     [DRREDDY.NS] Model training failed: train_model() got an unexpected keyword argument 'num_layers'
+2026-05-18 14:35:47  INFO      [DRREDDY.NS] ✓ Row appended | Close=1331.20 | TodayPred=0.00 | TomPred=0.00 | Err2=0.00% | Calib=—
+2026-05-18 14:35:49  INFO      [67/106] Processing: CIPLA.NS
+2026-05-18 14:35:50  INFO      ─────────────────────────────────────────────────────────────────
+2026-05-18 14:35:50  INFO      [CIPLA.NS] Starting pipeline for 2026-05-18
+2026-05-18 14:35:50  INFO      Created Excel template: CIPLA.xlsx
+2026-05-18 14:35:50  INFO      [CIPLA.NS] Fetching price data…
+2026-05-18 14:35:50  WARNING   [CIPLA.NS] Data validation: 3 rows with zero volume — forward-filled
+2026-05-18 14:35:50  INFO      [CIPLA.NS] Engineering features (parallel aux fetch)…
+2026-05-18 14:35:50  INFO      [CIPLA.NS] Feature matrix: 571 rows × 31 cols
+2026-05-18 14:35:50  INFO      [CIPLA.NS] Training config: mode=retrain | epochs=30 | patience=8 | dir_weight=0.40 | reason=no saved model
+2026-05-18 14:35:50  INFO      [CIPLA.NS] Full training: epochs=30 patience=8 dir_weight=0.40
+2026-05-18 14:35:50  ERROR     [CIPLA.NS] Model training failed: train_model() got an unexpected keyword argument 'num_layers'
+2026-05-18 14:35:50  INFO      [CIPLA.NS] ✓ Row appended | Close=1426.20 | TodayPred=0.00 | TomPred=0.00 | Err2=0.00% | Calib=—
+2026-05-18 14:35:51  INFO      [68/106] Processing: DIVISLAB.NS
+2026-05-18 14:35:52  INFO      ─────────────────────────────────────────────────────────────────
+2026-05-18 14:35:52  INFO      [DIVISLAB.NS] Starting pipeline for 2026-05-18
+2026-05-18 14:35:52  INFO      Created Excel template: DIVISLAB.xlsx
+2026-05-18 14:35:52  INFO      [DIVISLAB.NS] Fetching price data…
+2026-05-18 14:35:53  WARNING   [DIVISLAB.NS] Data validation: 2 rows with zero volume — forward-filled
+2026-05-18 14:35:53  INFO      [DIVISLAB.NS] Engineering features (parallel aux fetch)…
+2026-05-18 14:35:53  INFO      [DIVISLAB.NS] Feature matrix: 571 rows × 31 cols
+2026-05-18 14:35:53  INFO      [DIVISLAB.NS] Training config: mode=retrain | epochs=30 | patience=8 | dir_weight=0.40 | reason=no saved model
+2026-05-18 14:35:53  INFO      [DIVISLAB.NS] Full training: epochs=30 patience=8 dir_weight=0.40
+2026-05-18 14:35:53  ERROR     [DIVISLAB.NS] Model training failed: train_model() got an unexpected keyword argument 'num_layers'
+2026-05-18 14:35:53  INFO      [DIVISLAB.NS] ✓ Row appended | Close=6835.00 | TodayPred=0.00 | TomPred=0.00 | Err2=0.00% | Calib=—
+2026-05-18 14:35:54  INFO      [69/106] Processing: APOLLOHOSP.NS
+2026-05-18 14:35:55  INFO      ─────────────────────────────────────────────────────────────────
+2026-05-18 14:35:55  INFO      [APOLLOHOSP.NS] Starting pipeline for 2026-05-18
+2026-05-18 14:35:55  INFO      Created Excel template: APOLLOHOSP.xlsx
+2026-05-18 14:35:55  INFO      [APOLLOHOSP.NS] Fetching price data…
+2026-05-18 14:35:56  WARNING   [APOLLOHOSP.NS] Data validation: 3 rows with zero volume — forward-filled
+2026-05-18 14:35:56  INFO      [APOLLOHOSP.NS] Engineering features (parallel aux fetch)…
+2026-05-18 14:35:56  INFO      [APOLLOHOSP.NS] Feature matrix: 571 rows × 31 cols
+2026-05-18 14:35:56  INFO      [APOLLOHOSP.NS] Training config: mode=retrain | epochs=30 | patience=8 | dir_weight=0.40 | reason=no saved model
+2026-05-18 14:35:56  INFO      [APOLLOHOSP.NS] Full training: epochs=30 patience=8 dir_weight=0.40
+2026-05-18 14:35:56  ERROR     [APOLLOHOSP.NS] Model training failed: train_model() got an unexpected keyword argument 'num_layers'
+2026-05-18 14:35:56  INFO      [APOLLOHOSP.NS] ✓ Row appended | Close=8020.50 | TodayPred=0.00 | TomPred=0.00 | Err2=0.00% | Calib=—
+2026-05-18 14:35:57  INFO      [70/106] Processing: LUPIN.NS
+2026-05-18 14:35:58  INFO      ─────────────────────────────────────────────────────────────────
+2026-05-18 14:35:58  INFO      [LUPIN.NS] Starting pipeline for 2026-05-18
+2026-05-18 14:35:58  INFO      Created Excel template: LUPIN.xlsx
+2026-05-18 14:35:58  INFO      [LUPIN.NS] Fetching price data…
+2026-05-18 14:35:59  WARNING   [LUPIN.NS] Data validation: 3 rows with zero volume — forward-filled
+2026-05-18 14:35:59  INFO      [LUPIN.NS] Engineering features (parallel aux fetch)…
+2026-05-18 14:35:59  INFO      [LUPIN.NS] Feature matrix: 571 rows × 31 cols
+2026-05-18 14:35:59  INFO      [LUPIN.NS] Training config: mode=retrain | epochs=30 | patience=8 | dir_weight=0.40 | reason=no saved model
+2026-05-18 14:35:59  INFO      [LUPIN.NS] Full training: epochs=30 patience=8 dir_weight=0.40
+2026-05-18 14:35:59  ERROR     [LUPIN.NS] Model training failed: train_model() got an unexpected keyword argument 'num_layers'
+2026-05-18 14:35:59  INFO      [LUPIN.NS] ✓ Row appended | Close=2252.40 | TodayPred=0.00 | TomPred=0.00 | Err2=0.00% | Calib=—
+2026-05-18 14:36:00  INFO      [71/106] Processing: TORNTPHARM.NS
+2026-05-18 14:36:01  INFO      ─────────────────────────────────────────────────────────────────
+2026-05-18 14:36:01  INFO      [TORNTPHARM.NS] Starting pipeline for 2026-05-18
+2026-05-18 14:36:01  INFO      Created Excel template: TORNTPHARM.xlsx
+2026-05-18 14:36:01  INFO      [TORNTPHARM.NS] Fetching price data…
+2026-05-18 14:36:01  WARNING   [TORNTPHARM.NS] Data validation: 3 rows with zero volume — forward-filled
+2026-05-18 14:36:01  INFO      [TORNTPHARM.NS] Engineering features (parallel aux fetch)…
+2026-05-18 14:36:01  INFO      [TORNTPHARM.NS] Feature matrix: 571 rows × 31 cols
+2026-05-18 14:36:01  INFO      [TORNTPHARM.NS] Training config: mode=retrain | epochs=30 | patience=8 | dir_weight=0.40 | reason=no saved model
+2026-05-18 14:36:01  INFO      [TORNTPHARM.NS] Full training: epochs=30 patience=8 dir_weight=0.40
+2026-05-18 14:36:01  ERROR     [TORNTPHARM.NS] Model training failed: train_model() got an unexpected keyword argument 'num_layers'
+2026-05-18 14:36:01  INFO      [TORNTPHARM.NS] ✓ Row appended | Close=4393.70 | TodayPred=0.00 | TomPred=0.00 | Err2=0.00% | Calib=—
+2026-05-18 14:36:03  INFO      [72/106] Processing: AUROPHARMA.NS
+2026-05-18 14:36:04  INFO      ─────────────────────────────────────────────────────────────────
+2026-05-18 14:36:04  INFO      [AUROPHARMA.NS] Starting pipeline for 2026-05-18
+2026-05-18 14:36:04  INFO      Created Excel template: AUROPHARMA.xlsx
+2026-05-18 14:36:04  INFO      [AUROPHARMA.NS] Fetching price data…
+2026-05-18 14:36:04  WARNING   [AUROPHARMA.NS] Data validation: 2 rows with zero volume — forward-filled
+2026-05-18 14:36:04  INFO      [AUROPHARMA.NS] Engineering features (parallel aux fetch)…
+2026-05-18 14:36:04  INFO      [AUROPHARMA.NS] Feature matrix: 571 rows × 31 cols
+2026-05-18 14:36:04  INFO      [AUROPHARMA.NS] Training config: mode=retrain | epochs=30 | patience=8 | dir_weight=0.40 | reason=no saved model
+2026-05-18 14:36:04  INFO      [AUROPHARMA.NS] Full training: epochs=30 patience=8 dir_weight=0.40
+2026-05-18 14:36:04  ERROR     [AUROPHARMA.NS] Model training failed: train_model() got an unexpected keyword argument 'num_layers'
+2026-05-18 14:36:04  INFO      [AUROPHARMA.NS] ✓ Row appended | Close=1500.50 | TodayPred=0.00 | TomPred=0.00 | Err2=0.00% | Calib=—
+2026-05-18 14:36:05  INFO      [73/106] Processing: ALKEM.NS
+2026-05-18 14:36:06  INFO      ─────────────────────────────────────────────────────────────────
+2026-05-18 14:36:06  INFO      [ALKEM.NS] Starting pipeline for 2026-05-18
+2026-05-18 14:36:06  INFO      Created Excel template: ALKEM.xlsx
+2026-05-18 14:36:06  INFO      [ALKEM.NS] Fetching price data…
+2026-05-18 14:36:07  WARNING   [ALKEM.NS] Data validation: 2 rows with zero volume — forward-filled
+2026-05-18 14:36:07  INFO      [ALKEM.NS] Engineering features (parallel aux fetch)…
+2026-05-18 14:36:07  INFO      [ALKEM.NS] Feature matrix: 571 rows × 31 cols
+2026-05-18 14:36:07  INFO      [ALKEM.NS] Training config: mode=retrain | epochs=30 | patience=8 | dir_weight=0.40 | reason=no saved model
+2026-05-18 14:36:07  INFO      [ALKEM.NS] Full training: epochs=30 patience=8 dir_weight=0.40
+2026-05-18 14:36:07  ERROR     [ALKEM.NS] Model training failed: train_model() got an unexpected keyword argument 'num_layers'
+2026-05-18 14:36:07  INFO      [ALKEM.NS] ✓ Row appended | Close=5468.00 | TodayPred=0.00 | TomPred=0.00 | Err2=0.00% | Calib=—
+2026-05-18 14:36:08  INFO      [74/106] Processing: TATASTEEL.NS
+2026-05-18 14:36:09  INFO      ─────────────────────────────────────────────────────────────────
+2026-05-18 14:36:09  INFO      [TATASTEEL.NS] Starting pipeline for 2026-05-18
+2026-05-18 14:36:09  INFO      Created Excel template: TATASTEEL.xlsx
+2026-05-18 14:36:09  INFO      [TATASTEEL.NS] Fetching price data…
+2026-05-18 14:36:09  WARNING   [TATASTEEL.NS] Data validation: 3 rows with zero volume — forward-filled
+2026-05-18 14:36:09  INFO      [TATASTEEL.NS] Engineering features (parallel aux fetch)…
+2026-05-18 14:36:09  INFO      [TATASTEEL.NS] Feature matrix: 571 rows × 31 cols
+2026-05-18 14:36:09  INFO      [TATASTEEL.NS] Training config: mode=retrain | epochs=30 | patience=8 | dir_weight=0.40 | reason=no saved model
+2026-05-18 14:36:09  INFO      [TATASTEEL.NS] Full training: epochs=30 patience=8 dir_weight=0.40
+2026-05-18 14:36:09  ERROR     [TATASTEEL.NS] Model training failed: train_model() got an unexpected keyword argument 'num_layers'
+2026-05-18 14:36:09  INFO      [TATASTEEL.NS] ✓ Row appended | Close=209.71 | TodayPred=0.00 | TomPred=0.00 | Err2=0.00% | Calib=—
+2026-05-18 14:36:11  INFO      [75/106] Processing: JSWSTEEL.NS
+2026-05-18 14:36:12  INFO      ─────────────────────────────────────────────────────────────────
+2026-05-18 14:36:12  INFO      [JSWSTEEL.NS] Starting pipeline for 2026-05-18
+2026-05-18 14:36:12  INFO      Created Excel template: JSWSTEEL.xlsx
+2026-05-18 14:36:12  INFO      [JSWSTEEL.NS] Fetching price data…
+2026-05-18 14:36:12  WARNING   [JSWSTEEL.NS] Data validation: 3 rows with zero volume — forward-filled
+2026-05-18 14:36:12  INFO      [JSWSTEEL.NS] Engineering features (parallel aux fetch)…
+2026-05-18 14:36:12  INFO      [JSWSTEEL.NS] Feature matrix: 571 rows × 31 cols
+2026-05-18 14:36:12  INFO      [JSWSTEEL.NS] Training config: mode=retrain | epochs=30 | patience=8 | dir_weight=0.40 | reason=no saved model
+2026-05-18 14:36:12  INFO      [JSWSTEEL.NS] Full training: epochs=30 patience=8 dir_weight=0.40
+2026-05-18 14:36:12  ERROR     [JSWSTEEL.NS] Model training failed: train_model() got an unexpected keyword argument 'num_layers'
+2026-05-18 14:36:12  INFO      [JSWSTEEL.NS] ✓ Row appended | Close=1292.80 | TodayPred=0.00 | TomPred=0.00 | Err2=0.00% | Calib=—
+2026-05-18 14:36:14  INFO      [76/106] Processing: HINDALCO.NS
+2026-05-18 14:36:14  INFO      ─────────────────────────────────────────────────────────────────
+2026-05-18 14:36:14  INFO      [HINDALCO.NS] Starting pipeline for 2026-05-18
+2026-05-18 14:36:14  INFO      Created Excel template: HINDALCO.xlsx
+2026-05-18 14:36:14  INFO      [HINDALCO.NS] Fetching price data…
+2026-05-18 14:36:15  WARNING   [HINDALCO.NS] Data validation: 3 rows with zero volume — forward-filled
+2026-05-18 14:36:15  INFO      [HINDALCO.NS] Engineering features (parallel aux fetch)…
+2026-05-18 14:36:15  INFO      [HINDALCO.NS] Feature matrix: 571 rows × 31 cols
+2026-05-18 14:36:15  INFO      [HINDALCO.NS] Training config: mode=retrain | epochs=30 | patience=8 | dir_weight=0.40 | reason=no saved model
+2026-05-18 14:36:15  INFO      [HINDALCO.NS] Full training: epochs=30 patience=8 dir_weight=0.40
+2026-05-18 14:36:15  ERROR     [HINDALCO.NS] Model training failed: train_model() got an unexpected keyword argument 'num_layers'
+2026-05-18 14:36:15  INFO      [HINDALCO.NS] ✓ Row appended | Close=1053.10 | TodayPred=0.00 | TomPred=0.00 | Err2=0.00% | Calib=—
+2026-05-18 14:36:16  INFO      [77/106] Processing: VEDL.NS
+2026-05-18 14:36:17  INFO      ─────────────────────────────────────────────────────────────────
+2026-05-18 14:36:17  INFO      [VEDL.NS] Starting pipeline for 2026-05-18
+2026-05-18 14:36:17  INFO      Created Excel template: VEDL.xlsx
+2026-05-18 14:36:17  INFO      [VEDL.NS] Fetching price data…
+2026-05-18 14:36:17  WARNING   [VEDL.NS] Data validation: 3 rows with zero volume — forward-filled
+2026-05-18 14:36:17  INFO      [VEDL.NS] Engineering features (parallel aux fetch)…
+2026-05-18 14:36:17  INFO      [VEDL.NS] Feature matrix: 571 rows × 31 cols
+2026-05-18 14:36:17  INFO      [VEDL.NS] Training config: mode=retrain | epochs=30 | patience=8 | dir_weight=0.40 | reason=no saved model
+2026-05-18 14:36:17  INFO      [VEDL.NS] Full training: epochs=30 patience=8 dir_weight=0.40
+2026-05-18 14:36:17  ERROR     [VEDL.NS] Model training failed: train_model() got an unexpected keyword argument 'num_layers'
+2026-05-18 14:36:17  INFO      [VEDL.NS] ✓ Row appended | Close=327.00 | TodayPred=0.00 | TomPred=0.00 | Err2=0.00% | Calib=—
+2026-05-18 14:36:19  INFO      [78/106] Processing: COALINDIA.NS
+2026-05-18 14:36:19  INFO      ─────────────────────────────────────────────────────────────────
+2026-05-18 14:36:19  INFO      [COALINDIA.NS] Starting pipeline for 2026-05-18
+2026-05-18 14:36:19  INFO      Created Excel template: COALINDIA.xlsx
+2026-05-18 14:36:19  INFO      [COALINDIA.NS] Fetching price data…
+2026-05-18 14:36:20  WARNING   [COALINDIA.NS] Data validation: 3 rows with zero volume — forward-filled
+2026-05-18 14:36:20  INFO      [COALINDIA.NS] Engineering features (parallel aux fetch)…
+2026-05-18 14:36:20  INFO      [COALINDIA.NS] Feature matrix: 571 rows × 31 cols
+2026-05-18 14:36:20  INFO      [COALINDIA.NS] Training config: mode=retrain | epochs=30 | patience=8 | dir_weight=0.40 | reason=no saved model
+2026-05-18 14:36:20  INFO      [COALINDIA.NS] Full training: epochs=30 patience=8 dir_weight=0.40
+2026-05-18 14:36:20  ERROR     [COALINDIA.NS] Model training failed: train_model() got an unexpected keyword argument 'num_layers'
+2026-05-18 14:36:20  INFO      [COALINDIA.NS] ✓ Row appended | Close=462.10 | TodayPred=0.00 | TomPred=0.00 | Err2=0.00% | Calib=—
+2026-05-18 14:36:21  INFO      [79/106] Processing: NMDC.NS
+2026-05-18 14:36:22  INFO      ─────────────────────────────────────────────────────────────────
+2026-05-18 14:36:22  INFO      [NMDC.NS] Starting pipeline for 2026-05-18
+2026-05-18 14:36:22  INFO      Created Excel template: NMDC.xlsx
+2026-05-18 14:36:22  INFO      [NMDC.NS] Fetching price data…
+2026-05-18 14:36:22  WARNING   [NMDC.NS] Data validation: 3 rows with zero volume — forward-filled
+2026-05-18 14:36:22  INFO      [NMDC.NS] Engineering features (parallel aux fetch)…
+2026-05-18 14:36:22  INFO      [NMDC.NS] Feature matrix: 571 rows × 31 cols
+2026-05-18 14:36:22  INFO      [NMDC.NS] Training config: mode=retrain | epochs=30 | patience=8 | dir_weight=0.40 | reason=no saved model
+2026-05-18 14:36:22  INFO      [NMDC.NS] Full training: epochs=30 patience=8 dir_weight=0.40
+2026-05-18 14:36:22  ERROR     [NMDC.NS] Model training failed: train_model() got an unexpected keyword argument 'num_layers'
+2026-05-18 14:36:22  INFO      [NMDC.NS] ✓ Row appended | Close=90.14 | TodayPred=0.00 | TomPred=0.00 | Err2=0.00% | Calib=—
+2026-05-18 14:36:24  INFO      [80/106] Processing: SAIL.NS
+2026-05-18 14:36:25  INFO      ─────────────────────────────────────────────────────────────────
+2026-05-18 14:36:25  INFO      [SAIL.NS] Starting pipeline for 2026-05-18
+2026-05-18 14:36:25  INFO      Created Excel template: SAIL.xlsx
+2026-05-18 14:36:25  INFO      [SAIL.NS] Fetching price data…
+2026-05-18 14:36:25  WARNING   [SAIL.NS] Data validation: 3 rows with zero volume — forward-filled
+2026-05-18 14:36:25  INFO      [SAIL.NS] Engineering features (parallel aux fetch)…
+2026-05-18 14:36:25  INFO      [SAIL.NS] Feature matrix: 571 rows × 31 cols
+2026-05-18 14:36:25  INFO      [SAIL.NS] Training config: mode=retrain | epochs=30 | patience=8 | dir_weight=0.40 | reason=no saved model
+2026-05-18 14:36:25  INFO      [SAIL.NS] Full training: epochs=30 patience=8 dir_weight=0.40
+2026-05-18 14:36:25  ERROR     [SAIL.NS] Model training failed: train_model() got an unexpected keyword argument 'num_layers'
+2026-05-18 14:36:25  INFO      [SAIL.NS] ✓ Row appended | Close=192.73 | TodayPred=0.00 | TomPred=0.00 | Err2=0.00% | Calib=—
+2026-05-18 14:36:26  INFO      [81/106] Processing: ULTRACEMCO.NS
+2026-05-18 14:36:27  INFO      ─────────────────────────────────────────────────────────────────
+2026-05-18 14:36:27  INFO      [ULTRACEMCO.NS] Starting pipeline for 2026-05-18
+2026-05-18 14:36:27  INFO      Created Excel template: ULTRACEMCO.xlsx
+2026-05-18 14:36:27  INFO      [ULTRACEMCO.NS] Fetching price data…
+2026-05-18 14:36:27  WARNING   [ULTRACEMCO.NS] Data validation: 3 rows with zero volume — forward-filled
+2026-05-18 14:36:27  INFO      [ULTRACEMCO.NS] Engineering features (parallel aux fetch)…
+2026-05-18 14:36:27  INFO      [ULTRACEMCO.NS] Feature matrix: 571 rows × 31 cols
+2026-05-18 14:36:27  INFO      [ULTRACEMCO.NS] Training config: mode=retrain | epochs=30 | patience=8 | dir_weight=0.40 | reason=no saved model
+2026-05-18 14:36:27  INFO      [ULTRACEMCO.NS] Full training: epochs=30 patience=8 dir_weight=0.40
+2026-05-18 14:36:27  ERROR     [ULTRACEMCO.NS] Model training failed: train_model() got an unexpected keyword argument 'num_layers'
+2026-05-18 14:36:27  INFO      [ULTRACEMCO.NS] ✓ Row appended | Close=11561.00 | TodayPred=0.00 | TomPred=0.00 | Err2=0.00% | Calib=—
+2026-05-18 14:36:29  INFO      [82/106] Processing: AMBUJACEM.NS
+2026-05-18 14:36:30  INFO      ─────────────────────────────────────────────────────────────────
+2026-05-18 14:36:30  INFO      [AMBUJACEM.NS] Starting pipeline for 2026-05-18
+2026-05-18 14:36:30  INFO      Created Excel template: AMBUJACEM.xlsx
+2026-05-18 14:36:30  INFO      [AMBUJACEM.NS] Fetching price data…
+2026-05-18 14:36:30  WARNING   [AMBUJACEM.NS] Data validation: 3 rows with zero volume — forward-filled
+2026-05-18 14:36:30  INFO      [AMBUJACEM.NS] Engineering features (parallel aux fetch)…
+2026-05-18 14:36:30  INFO      [AMBUJACEM.NS] Feature matrix: 571 rows × 31 cols
+2026-05-18 14:36:30  INFO      [AMBUJACEM.NS] Training config: mode=retrain | epochs=30 | patience=8 | dir_weight=0.40 | reason=no saved model
+2026-05-18 14:36:30  INFO      [AMBUJACEM.NS] Full training: epochs=30 patience=8 dir_weight=0.40
+2026-05-18 14:36:30  ERROR     [AMBUJACEM.NS] Model training failed: train_model() got an unexpected keyword argument 'num_layers'
+2026-05-18 14:36:30  INFO      [AMBUJACEM.NS] ✓ Row appended | Close=430.15 | TodayPred=0.00 | TomPred=0.00 | Err2=0.00% | Calib=—
+2026-05-18 14:36:31  INFO      [83/106] Processing: ACC.NS
+2026-05-18 14:36:32  INFO      ─────────────────────────────────────────────────────────────────
+2026-05-18 14:36:32  INFO      [ACC.NS] Starting pipeline for 2026-05-18
+2026-05-18 14:36:32  INFO      Created Excel template: ACC.xlsx
+2026-05-18 14:36:32  INFO      [ACC.NS] Fetching price data…
+2026-05-18 14:36:32  WARNING   [ACC.NS] Data validation: 3 rows with zero volume — forward-filled
+2026-05-18 14:36:32  INFO      [ACC.NS] Engineering features (parallel aux fetch)…
+2026-05-18 14:36:32  INFO      [ACC.NS] Feature matrix: 571 rows × 31 cols
+2026-05-18 14:36:32  INFO      [ACC.NS] Training config: mode=retrain | epochs=30 | patience=8 | dir_weight=0.40 | reason=no saved model
+2026-05-18 14:36:32  INFO      [ACC.NS] Full training: epochs=30 patience=8 dir_weight=0.40
+2026-05-18 14:36:32  ERROR     [ACC.NS] Model training failed: train_model() got an unexpected keyword argument 'num_layers'
+2026-05-18 14:36:32  INFO      [ACC.NS] ✓ Row appended | Close=1359.60 | TodayPred=0.00 | TomPred=0.00 | Err2=0.00% | Calib=—
+2026-05-18 14:36:34  INFO      [84/106] Processing: SHREECEM.NS
+2026-05-18 14:36:34  INFO      ─────────────────────────────────────────────────────────────────
+2026-05-18 14:36:34  INFO      [SHREECEM.NS] Starting pipeline for 2026-05-18
+2026-05-18 14:36:34  INFO      Created Excel template: SHREECEM.xlsx
+2026-05-18 14:36:35  INFO      [SHREECEM.NS] Fetching price data…
+2026-05-18 14:36:35  WARNING   [SHREECEM.NS] Data validation: 3 rows with zero volume — forward-filled
+2026-05-18 14:36:35  INFO      [SHREECEM.NS] Engineering features (parallel aux fetch)…
+2026-05-18 14:36:35  INFO      [SHREECEM.NS] Feature matrix: 571 rows × 31 cols
+2026-05-18 14:36:35  INFO      [SHREECEM.NS] Training config: mode=retrain | epochs=30 | patience=8 | dir_weight=0.40 | reason=no saved model
+2026-05-18 14:36:35  INFO      [SHREECEM.NS] Full training: epochs=30 patience=8 dir_weight=0.40
+2026-05-18 14:36:35  ERROR     [SHREECEM.NS] Model training failed: train_model() got an unexpected keyword argument 'num_layers'
+2026-05-18 14:36:35  INFO      [SHREECEM.NS] ✓ Row appended | Close=24475.00 | TodayPred=0.00 | TomPred=0.00 | Err2=0.00% | Calib=—
+2026-05-18 14:36:36  INFO      [85/106] Processing: BHARTIARTL.NS
+2026-05-18 14:36:37  INFO      ─────────────────────────────────────────────────────────────────
+2026-05-18 14:36:37  INFO      [BHARTIARTL.NS] Starting pipeline for 2026-05-18
+2026-05-18 14:36:37  INFO      Created Excel template: BHARTIARTL.xlsx
+2026-05-18 14:36:37  INFO      [BHARTIARTL.NS] Fetching price data…
+2026-05-18 14:36:37  WARNING   [BHARTIARTL.NS] Data validation: 3 rows with zero volume — forward-filled
+2026-05-18 14:36:37  INFO      [BHARTIARTL.NS] Engineering features (parallel aux fetch)…
+2026-05-18 14:36:37  INFO      [BHARTIARTL.NS] Feature matrix: 571 rows × 31 cols
+2026-05-18 14:36:37  INFO      [BHARTIARTL.NS] Training config: mode=retrain | epochs=30 | patience=8 | dir_weight=0.40 | reason=no saved model
+2026-05-18 14:36:37  INFO      [BHARTIARTL.NS] Full training: epochs=30 patience=8 dir_weight=0.40
+2026-05-18 14:36:37  ERROR     [BHARTIARTL.NS] Model training failed: train_model() got an unexpected keyword argument 'num_layers'
+2026-05-18 14:36:37  INFO      [BHARTIARTL.NS] ✓ Row appended | Close=1938.10 | TodayPred=0.00 | TomPred=0.00 | Err2=0.00% | Calib=—
+2026-05-18 14:36:39  INFO      [86/106] Processing: VODAFONEIDEA.NS
+2026-05-18 14:36:39  ERROR     HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: VODAFONEIDEA.NS"}}}
+2026-05-18 14:36:40  INFO      ─────────────────────────────────────────────────────────────────
+2026-05-18 14:36:40  INFO      [VODAFONEIDEA.NS] Starting pipeline for 2026-05-18
+2026-05-18 14:36:40  INFO      Created Excel template: VODAFONEIDEA.xlsx
+2026-05-18 14:36:40  INFO      [VODAFONEIDEA.NS] Fetching price data…
+2026-05-18 14:36:40  ERROR     $VODAFONEIDEA.NS: possibly delisted; no timezone found
+2026-05-18 14:36:40  ERROR     
+1 Failed download:
+2026-05-18 14:36:40  ERROR     ['VODAFONEIDEA.NS']: possibly delisted; no timezone found
+2026-05-18 14:36:40  ERROR     [VODAFONEIDEA.NS] No price data returned
+2026-05-18 14:36:42  INFO      [87/106] Processing: DLF.NS
+2026-05-18 14:36:42  INFO      ─────────────────────────────────────────────────────────────────
+2026-05-18 14:36:42  INFO      [DLF.NS] Starting pipeline for 2026-05-18
+2026-05-18 14:36:42  INFO      Created Excel template: DLF.xlsx
+2026-05-18 14:36:42  INFO      [DLF.NS] Fetching price data…
+2026-05-18 14:36:42  WARNING   [DLF.NS] Data validation: 3 rows with zero volume — forward-filled
+2026-05-18 14:36:42  INFO      [DLF.NS] Engineering features (parallel aux fetch)…
+2026-05-18 14:36:42  INFO      [DLF.NS] Feature matrix: 571 rows × 31 cols
+2026-05-18 14:36:42  INFO      [DLF.NS] Training config: mode=retrain | epochs=30 | patience=8 | dir_weight=0.40 | reason=no saved model
+2026-05-18 14:36:42  INFO      [DLF.NS] Full training: epochs=30 patience=8 dir_weight=0.40
+2026-05-18 14:36:42  ERROR     [DLF.NS] Model training failed: train_model() got an unexpected keyword argument 'num_layers'
+2026-05-18 14:36:42  INFO      [DLF.NS] ✓ Row appended | Close=573.15 | TodayPred=0.00 | TomPred=0.00 | Err2=0.00% | Calib=—
+2026-05-18 14:36:44  INFO      [88/106] Processing: GODREJPROP.NS
+2026-05-18 14:36:45  INFO      ─────────────────────────────────────────────────────────────────
+2026-05-18 14:36:45  INFO      [GODREJPROP.NS] Starting pipeline for 2026-05-18
+2026-05-18 14:36:45  INFO      Created Excel template: GODREJPROP.xlsx
+2026-05-18 14:36:45  INFO      [GODREJPROP.NS] Fetching price data…
+2026-05-18 14:36:45  WARNING   [GODREJPROP.NS] Data validation: 3 rows with zero volume — forward-filled
+2026-05-18 14:36:45  INFO      [GODREJPROP.NS] Engineering features (parallel aux fetch)…
+2026-05-18 14:36:45  INFO      [GODREJPROP.NS] Feature matrix: 571 rows × 31 cols
+2026-05-18 14:36:45  INFO      [GODREJPROP.NS] Training config: mode=retrain | epochs=30 | patience=8 | dir_weight=0.40 | reason=no saved model
+2026-05-18 14:36:45  INFO      [GODREJPROP.NS] Full training: epochs=30 patience=8 dir_weight=0.40
+2026-05-18 14:36:45  ERROR     [GODREJPROP.NS] Model training failed: train_model() got an unexpected keyword argument 'num_layers'
+2026-05-18 14:36:45  INFO      [GODREJPROP.NS] ✓ Row appended | Close=1686.30 | TodayPred=0.00 | TomPred=0.00 | Err2=0.00% | Calib=—
+2026-05-18 14:36:46  INFO      [89/106] Processing: PRESTIGE.NS
+2026-05-18 14:36:47  INFO      ─────────────────────────────────────────────────────────────────
+2026-05-18 14:36:47  INFO      [PRESTIGE.NS] Starting pipeline for 2026-05-18
+2026-05-18 14:36:47  INFO      Created Excel template: PRESTIGE.xlsx
+2026-05-18 14:36:47  INFO      [PRESTIGE.NS] Fetching price data…
+2026-05-18 14:36:48  WARNING   [PRESTIGE.NS] Data validation: 3 rows with zero volume — forward-filled
+2026-05-18 14:36:48  INFO      [PRESTIGE.NS] Engineering features (parallel aux fetch)…
+2026-05-18 14:36:48  INFO      [PRESTIGE.NS] Feature matrix: 571 rows × 31 cols
+2026-05-18 14:36:48  INFO      [PRESTIGE.NS] Training config: mode=retrain | epochs=30 | patience=8 | dir_weight=0.40 | reason=no saved model
+2026-05-18 14:36:48  INFO      [PRESTIGE.NS] Full training: epochs=30 patience=8 dir_weight=0.40
+2026-05-18 14:36:48  ERROR     [PRESTIGE.NS] Model training failed: train_model() got an unexpected keyword argument 'num_layers'
+2026-05-18 14:36:48  INFO      [PRESTIGE.NS] ✓ Row appended | Close=1342.70 | TodayPred=0.00 | TomPred=0.00 | Err2=0.00% | Calib=—
+2026-05-18 14:36:49  INFO      [90/106] Processing: TITAN.NS
+2026-05-18 14:36:50  INFO      ─────────────────────────────────────────────────────────────────
+2026-05-18 14:36:50  INFO      [TITAN.NS] Starting pipeline for 2026-05-18
+2026-05-18 14:36:50  INFO      Created Excel template: TITAN.xlsx
+2026-05-18 14:36:50  INFO      [TITAN.NS] Fetching price data…
+2026-05-18 14:36:50  WARNING   [TITAN.NS] Data validation: 3 rows with zero volume — forward-filled
+2026-05-18 14:36:50  INFO      [TITAN.NS] Engineering features (parallel aux fetch)…
+2026-05-18 14:36:50  INFO      [TITAN.NS] Feature matrix: 571 rows × 31 cols
+2026-05-18 14:36:50  INFO      [TITAN.NS] Training config: mode=retrain | epochs=30 | patience=8 | dir_weight=0.40 | reason=no saved model
+2026-05-18 14:36:50  INFO      [TITAN.NS] Full training: epochs=30 patience=8 dir_weight=0.40
+2026-05-18 14:36:50  ERROR     [TITAN.NS] Model training failed: train_model() got an unexpected keyword argument 'num_layers'
+2026-05-18 14:36:50  INFO      [TITAN.NS] ✓ Row appended | Close=4169.70 | TodayPred=0.00 | TomPred=0.00 | Err2=0.00% | Calib=—
+2026-05-18 14:36:52  INFO      [91/106] Processing: TRENT.NS
+2026-05-18 14:36:52  INFO      ─────────────────────────────────────────────────────────────────
+2026-05-18 14:36:52  INFO      [TRENT.NS] Starting pipeline for 2026-05-18
+2026-05-18 14:36:52  INFO      Created Excel template: TRENT.xlsx
+2026-05-18 14:36:52  INFO      [TRENT.NS] Fetching price data…
+2026-05-18 14:36:53  WARNING   [TRENT.NS] Data validation: 3 rows with zero volume — forward-filled
+2026-05-18 14:36:53  INFO      [TRENT.NS] Engineering features (parallel aux fetch)…
+2026-05-18 14:36:53  INFO      [TRENT.NS] Feature matrix: 571 rows × 31 cols
+2026-05-18 14:36:53  INFO      [TRENT.NS] Training config: mode=retrain | epochs=30 | patience=8 | dir_weight=0.40 | reason=no saved model
+2026-05-18 14:36:53  INFO      [TRENT.NS] Full training: epochs=30 patience=8 dir_weight=0.40
+2026-05-18 14:36:53  ERROR     [TRENT.NS] Model training failed: train_model() got an unexpected keyword argument 'num_layers'
+2026-05-18 14:36:53  INFO      [TRENT.NS] ✓ Row appended | Close=4032.30 | TodayPred=0.00 | TomPred=0.00 | Err2=0.00% | Calib=—
+2026-05-18 14:36:54  INFO      [92/106] Processing: DMART.NS
+2026-05-18 14:36:55  INFO      ─────────────────────────────────────────────────────────────────
+2026-05-18 14:36:55  INFO      [DMART.NS] Starting pipeline for 2026-05-18
+2026-05-18 14:36:55  INFO      Created Excel template: DMART.xlsx
+2026-05-18 14:36:55  INFO      [DMART.NS] Fetching price data…
+2026-05-18 14:36:55  WARNING   [DMART.NS] Data validation: 3 rows with zero volume — forward-filled
+2026-05-18 14:36:55  INFO      [DMART.NS] Engineering features (parallel aux fetch)…
+2026-05-18 14:36:55  INFO      [DMART.NS] Feature matrix: 571 rows × 31 cols
+2026-05-18 14:36:55  INFO      [DMART.NS] Training config: mode=retrain | epochs=30 | patience=8 | dir_weight=0.40 | reason=no saved model
+2026-05-18 14:36:55  INFO      [DMART.NS] Full training: epochs=30 patience=8 dir_weight=0.40
+2026-05-18 14:36:55  ERROR     [DMART.NS] Model training failed: train_model() got an unexpected keyword argument 'num_layers'
+2026-05-18 14:36:55  INFO      [DMART.NS] ✓ Row appended | Close=4304.70 | TodayPred=0.00 | TomPred=0.00 | Err2=0.00% | Calib=—
+2026-05-18 14:36:57  INFO      [93/106] Processing: NYKAA.NS
+2026-05-18 14:36:57  INFO      ─────────────────────────────────────────────────────────────────
+2026-05-18 14:36:57  INFO      [NYKAA.NS] Starting pipeline for 2026-05-18
+2026-05-18 14:36:57  INFO      Created Excel template: NYKAA.xlsx
+2026-05-18 14:36:57  INFO      [NYKAA.NS] Fetching price data…
+2026-05-18 14:36:58  WARNING   [NYKAA.NS] Data validation: 3 rows with zero volume — forward-filled
+2026-05-18 14:36:58  INFO      [NYKAA.NS] Engineering features (parallel aux fetch)…
+2026-05-18 14:36:58  INFO      [NYKAA.NS] Feature matrix: 571 rows × 31 cols
+2026-05-18 14:36:58  INFO      [NYKAA.NS] Training config: mode=retrain | epochs=30 | patience=8 | dir_weight=0.40 | reason=no saved model
+2026-05-18 14:36:58  INFO      [NYKAA.NS] Full training: epochs=30 patience=8 dir_weight=0.40
+2026-05-18 14:36:58  ERROR     [NYKAA.NS] Model training failed: train_model() got an unexpected keyword argument 'num_layers'
+2026-05-18 14:36:58  INFO      [NYKAA.NS] ✓ Row appended | Close=272.70 | TodayPred=0.00 | TomPred=0.00 | Err2=0.00% | Calib=—
+2026-05-18 14:36:59  INFO      [94/106] Processing: ZOMATO.NS
+2026-05-18 14:37:00  INFO      ─────────────────────────────────────────────────────────────────
+2026-05-18 14:37:00  INFO      [ZOMATO.NS] Starting pipeline for 2026-05-18
+2026-05-18 14:37:00  INFO      Created Excel template: ZOMATO.xlsx
+2026-05-18 14:37:00  INFO      [ZOMATO.NS] Fetching price data…
+2026-05-18 14:37:01  ERROR     $ZOMATO.NS: possibly delisted; no timezone found
+2026-05-18 14:37:01  ERROR     
+1 Failed download:
+2026-05-18 14:37:01  ERROR     ['ZOMATO.NS']: possibly delisted; no timezone found
+2026-05-18 14:37:01  ERROR     [ZOMATO.NS] No price data returned
+2026-05-18 14:37:02  INFO      [95/106] Processing: PAYTM.NS
+2026-05-18 14:37:03  INFO      ─────────────────────────────────────────────────────────────────
+2026-05-18 14:37:03  INFO      [PAYTM.NS] Starting pipeline for 2026-05-18
+2026-05-18 14:37:03  INFO      Created Excel template: PAYTM.xlsx
+2026-05-18 14:37:03  INFO      [PAYTM.NS] Fetching price data…
+2026-05-18 14:37:03  WARNING   [PAYTM.NS] Data validation: 3 rows with zero volume — forward-filled
+2026-05-18 14:37:03  INFO      [PAYTM.NS] Engineering features (parallel aux fetch)…
+2026-05-18 14:37:03  INFO      [PAYTM.NS] Feature matrix: 571 rows × 31 cols
+2026-05-18 14:37:03  INFO      [PAYTM.NS] Training config: mode=retrain | epochs=30 | patience=8 | dir_weight=0.40 | reason=no saved model
+2026-05-18 14:37:03  INFO      [PAYTM.NS] Full training: epochs=30 patience=8 dir_weight=0.40
+2026-05-18 14:37:03  ERROR     [PAYTM.NS] Model training failed: train_model() got an unexpected keyword argument 'num_layers'
+2026-05-18 14:37:03  INFO      [PAYTM.NS] ✓ Row appended | Close=1105.10 | TodayPred=0.00 | TomPred=0.00 | Err2=0.00% | Calib=—
+2026-05-18 14:37:04  INFO      [96/106] Processing: INDIAMART.NS
+2026-05-18 14:37:05  INFO      ─────────────────────────────────────────────────────────────────
+2026-05-18 14:37:05  INFO      [INDIAMART.NS] Starting pipeline for 2026-05-18
+2026-05-18 14:37:05  INFO      Created Excel template: INDIAMART.xlsx
+2026-05-18 14:37:05  INFO      [INDIAMART.NS] Fetching price data…
+2026-05-18 14:37:05  WARNING   [INDIAMART.NS] Data validation: 3 rows with zero volume — forward-filled
+2026-05-18 14:37:05  INFO      [INDIAMART.NS] Engineering features (parallel aux fetch)…
+2026-05-18 14:37:05  INFO      [INDIAMART.NS] Feature matrix: 571 rows × 31 cols
+2026-05-18 14:37:05  INFO      [INDIAMART.NS] Training config: mode=retrain | epochs=30 | patience=8 | dir_weight=0.40 | reason=no saved model
+2026-05-18 14:37:05  INFO      [INDIAMART.NS] Full training: epochs=30 patience=8 dir_weight=0.40
+2026-05-18 14:37:05  ERROR     [INDIAMART.NS] Model training failed: train_model() got an unexpected keyword argument 'num_layers'
+2026-05-18 14:37:05  INFO      [INDIAMART.NS] ✓ Row appended | Close=1949.00 | TodayPred=0.00 | TomPred=0.00 | Err2=0.00% | Calib=—
+2026-05-18 14:37:07  INFO      [97/106] Processing: PIDILITIND.NS
+2026-05-18 14:37:08  INFO      ─────────────────────────────────────────────────────────────────
+2026-05-18 14:37:08  INFO      [PIDILITIND.NS] Starting pipeline for 2026-05-18
+2026-05-18 14:37:08  INFO      Created Excel template: PIDILITIND.xlsx
+2026-05-18 14:37:08  INFO      [PIDILITIND.NS] Fetching price data…
+2026-05-18 14:37:08  WARNING   [PIDILITIND.NS] Data validation: 3 rows with zero volume — forward-filled
+2026-05-18 14:37:08  INFO      [PIDILITIND.NS] Engineering features (parallel aux fetch)…
+2026-05-18 14:37:08  INFO      [PIDILITIND.NS] Feature matrix: 571 rows × 31 cols
+2026-05-18 14:37:08  INFO      [PIDILITIND.NS] Training config: mode=retrain | epochs=30 | patience=8 | dir_weight=0.40 | reason=no saved model
+2026-05-18 14:37:08  INFO      [PIDILITIND.NS] Full training: epochs=30 patience=8 dir_weight=0.40
+2026-05-18 14:37:08  ERROR     [PIDILITIND.NS] Model training failed: train_model() got an unexpected keyword argument 'num_layers'
+2026-05-18 14:37:08  INFO      [PIDILITIND.NS] ✓ Row appended | Close=1450.20 | TodayPred=0.00 | TomPred=0.00 | Err2=0.00% | Calib=—
+2026-05-18 14:37:10  INFO      [98/106] Processing: ASIANPAINT.NS
+2026-05-18 14:37:10  INFO      ─────────────────────────────────────────────────────────────────
+2026-05-18 14:37:10  INFO      [ASIANPAINT.NS] Starting pipeline for 2026-05-18
+2026-05-18 14:37:10  INFO      Created Excel template: ASIANPAINT.xlsx
+2026-05-18 14:37:10  INFO      [ASIANPAINT.NS] Fetching price data…
+2026-05-18 14:37:11  WARNING   [ASIANPAINT.NS] Data validation: 3 rows with zero volume — forward-filled
+2026-05-18 14:37:11  INFO      [ASIANPAINT.NS] Engineering features (parallel aux fetch)…
+2026-05-18 14:37:11  INFO      [ASIANPAINT.NS] Feature matrix: 571 rows × 31 cols
+2026-05-18 14:37:11  INFO      [ASIANPAINT.NS] Training config: mode=retrain | epochs=30 | patience=8 | dir_weight=0.40 | reason=no saved model
+2026-05-18 14:37:11  INFO      [ASIANPAINT.NS] Full training: epochs=30 patience=8 dir_weight=0.40
+2026-05-18 14:37:11  ERROR     [ASIANPAINT.NS] Model training failed: train_model() got an unexpected keyword argument 'num_layers'
+2026-05-18 14:37:11  INFO      [ASIANPAINT.NS] ✓ Row appended | Close=2614.00 | TodayPred=0.00 | TomPred=0.00 | Err2=0.00% | Calib=—
+2026-05-18 14:37:12  INFO      [99/106] Processing: BERGER.NS
+2026-05-18 14:37:13  ERROR     HTTP Error 404: {"quoteSummary":{"result":null,"error":{"code":"Not Found","description":"Quote not found for symbol: BERGER.NS"}}}
+2026-05-18 14:37:13  INFO      ─────────────────────────────────────────────────────────────────
+2026-05-18 14:37:13  INFO      [BERGER.NS] Starting pipeline for 2026-05-18
+2026-05-18 14:37:13  INFO      Created Excel template: BERGER.xlsx
+2026-05-18 14:37:13  INFO      [BERGER.NS] Fetching price data…
+2026-05-18 14:37:14  ERROR     $BERGER.NS: possibly delisted; no timezone found
+2026-05-18 14:37:14  ERROR     
+1 Failed download:
+2026-05-18 14:37:14  ERROR     ['BERGER.NS']: possibly delisted; no timezone found
+2026-05-18 14:37:14  ERROR     [BERGER.NS] No price data returned
+2026-05-18 14:37:15  INFO      [100/106] Processing: SRF.NS
+2026-05-18 14:37:16  INFO      ─────────────────────────────────────────────────────────────────
+2026-05-18 14:37:16  INFO      [SRF.NS] Starting pipeline for 2026-05-18
+2026-05-18 14:37:16  INFO      Created Excel template: SRF.xlsx
+2026-05-18 14:37:16  INFO      [SRF.NS] Fetching price data…
+2026-05-18 14:37:16  WARNING   [SRF.NS] Data validation: 3 rows with zero volume — forward-filled
+2026-05-18 14:37:16  INFO      [SRF.NS] Engineering features (parallel aux fetch)…
+2026-05-18 14:37:16  INFO      [SRF.NS] Feature matrix: 571 rows × 31 cols
+2026-05-18 14:37:16  INFO      [SRF.NS] Training config: mode=retrain | epochs=30 | patience=8 | dir_weight=0.40 | reason=no saved model
+2026-05-18 14:37:16  INFO      [SRF.NS] Full training: epochs=30 patience=8 dir_weight=0.40
+2026-05-18 14:37:16  ERROR     [SRF.NS] Model training failed: train_model() got an unexpected keyword argument 'num_layers'
+2026-05-18 14:37:16  INFO      [SRF.NS] ✓ Row appended | Close=2639.90 | TodayPred=0.00 | TomPred=0.00 | Err2=0.00% | Calib=—
+2026-05-18 14:37:17  INFO      [101/106] Processing: IRCTC.NS
+2026-05-18 14:37:18  INFO      ─────────────────────────────────────────────────────────────────
+2026-05-18 14:37:18  INFO      [IRCTC.NS] Starting pipeline for 2026-05-18
+2026-05-18 14:37:18  INFO      Created Excel template: IRCTC.xlsx
+2026-05-18 14:37:18  INFO      [IRCTC.NS] Fetching price data…
+2026-05-18 14:37:18  WARNING   [IRCTC.NS] Data validation: 3 rows with zero volume — forward-filled
+2026-05-18 14:37:18  INFO      [IRCTC.NS] Engineering features (parallel aux fetch)…
+2026-05-18 14:37:18  INFO      [IRCTC.NS] Feature matrix: 571 rows × 31 cols
+2026-05-18 14:37:18  INFO      [IRCTC.NS] Training config: mode=retrain | epochs=30 | patience=8 | dir_weight=0.40 | reason=no saved model
+2026-05-18 14:37:18  INFO      [IRCTC.NS] Full training: epochs=30 patience=8 dir_weight=0.40
+2026-05-18 14:37:18  ERROR     [IRCTC.NS] Model training failed: train_model() got an unexpected keyword argument 'num_layers'
+2026-05-18 14:37:18  INFO      [IRCTC.NS] ✓ Row appended | Close=531.85 | TodayPred=0.00 | TomPred=0.00 | Err2=0.00% | Calib=—
+2026-05-18 14:37:20  INFO      [102/106] Processing: CONCOR.NS
+2026-05-18 14:37:21  INFO      ─────────────────────────────────────────────────────────────────
+2026-05-18 14:37:21  INFO      [CONCOR.NS] Starting pipeline for 2026-05-18
+2026-05-18 14:37:21  INFO      Created Excel template: CONCOR.xlsx
+2026-05-18 14:37:21  INFO      [CONCOR.NS] Fetching price data…
+2026-05-18 14:37:21  WARNING   [CONCOR.NS] Data validation: 3 rows with zero volume — forward-filled
+2026-05-18 14:37:21  INFO      [CONCOR.NS] Engineering features (parallel aux fetch)…
+2026-05-18 14:37:21  INFO      [CONCOR.NS] Feature matrix: 571 rows × 31 cols
+2026-05-18 14:37:21  INFO      [CONCOR.NS] Training config: mode=retrain | epochs=30 | patience=8 | dir_weight=0.40 | reason=no saved model
+2026-05-18 14:37:21  INFO      [CONCOR.NS] Full training: epochs=30 patience=8 dir_weight=0.40
+2026-05-18 14:37:21  ERROR     [CONCOR.NS] Model training failed: train_model() got an unexpected keyword argument 'num_layers'
+2026-05-18 14:37:21  INFO      [CONCOR.NS] ✓ Row appended | Close=501.95 | TodayPred=0.00 | TomPred=0.00 | Err2=0.00% | Calib=—
+2026-05-18 14:37:22  INFO      [103/106] Processing: UPL.NS
+2026-05-18 14:37:23  INFO      ─────────────────────────────────────────────────────────────────
+2026-05-18 14:37:23  INFO      [UPL.NS] Starting pipeline for 2026-05-18
+2026-05-18 14:37:23  INFO      Created Excel template: UPL.xlsx
+2026-05-18 14:37:23  INFO      [UPL.NS] Fetching price data…
+2026-05-18 14:37:23  WARNING   [UPL.NS] Data validation: 3 rows with zero volume — forward-filled
+2026-05-18 14:37:23  INFO      [UPL.NS] Engineering features (parallel aux fetch)…
+2026-05-18 14:37:23  INFO      [UPL.NS] Feature matrix: 571 rows × 31 cols
+2026-05-18 14:37:23  INFO      [UPL.NS] Training config: mode=retrain | epochs=30 | patience=8 | dir_weight=0.40 | reason=no saved model
+2026-05-18 14:37:23  INFO      [UPL.NS] Full training: epochs=30 patience=8 dir_weight=0.40
+2026-05-18 14:37:23  ERROR     [UPL.NS] Model training failed: train_model() got an unexpected keyword argument 'num_layers'
+2026-05-18 14:37:23  INFO      [UPL.NS] ✓ Row appended | Close=637.85 | TodayPred=0.00 | TomPred=0.00 | Err2=0.00% | Calib=—
+2026-05-18 14:37:25  INFO      [104/106] Processing: PIIND.NS
+2026-05-18 14:37:26  INFO      ─────────────────────────────────────────────────────────────────
+2026-05-18 14:37:26  INFO      [PIIND.NS] Starting pipeline for 2026-05-18
+2026-05-18 14:37:26  INFO      Created Excel template: PIIND.xlsx
+2026-05-18 14:37:26  INFO      [PIIND.NS] Fetching price data…
+2026-05-18 14:37:26  WARNING   [PIIND.NS] Data validation: 3 rows with zero volume — forward-filled
+2026-05-18 14:37:26  INFO      [PIIND.NS] Engineering features (parallel aux fetch)…
+2026-05-18 14:37:26  INFO      [PIIND.NS] Feature matrix: 571 rows × 31 cols
+2026-05-18 14:37:26  INFO      [PIIND.NS] Training config: mode=retrain | epochs=30 | patience=8 | dir_weight=0.40 | reason=no saved model
+2026-05-18 14:37:26  INFO      [PIIND.NS] Full training: epochs=30 patience=8 dir_weight=0.40
+2026-05-18 14:37:26  ERROR     [PIIND.NS] Model training failed: train_model() got an unexpected keyword argument 'num_layers'
+2026-05-18 14:37:26  INFO      [PIIND.NS] ✓ Row appended | Close=3096.30 | TodayPred=0.00 | TomPred=0.00 | Err2=0.00% | Calib=—
+2026-05-18 14:37:28  INFO      [105/106] Processing: TATACONSUM.NS
+2026-05-18 14:37:29  INFO      ─────────────────────────────────────────────────────────────────
+2026-05-18 14:37:29  INFO      [TATACONSUM.NS] Starting pipeline for 2026-05-18
+2026-05-18 14:37:29  INFO      Created Excel template: TATACONSUM.xlsx
+2026-05-18 14:37:29  INFO      [TATACONSUM.NS] Fetching price data…
+2026-05-18 14:37:29  WARNING   [TATACONSUM.NS] Data validation: 3 rows with zero volume — forward-filled
+2026-05-18 14:37:29  INFO      [TATACONSUM.NS] Engineering features (parallel aux fetch)…
+2026-05-18 14:37:29  INFO      [TATACONSUM.NS] Feature matrix: 571 rows × 31 cols
+2026-05-18 14:37:29  INFO      [TATACONSUM.NS] Training config: mode=retrain | epochs=30 | patience=8 | dir_weight=0.40 | reason=no saved model
+2026-05-18 14:37:29  INFO      [TATACONSUM.NS] Full training: epochs=30 patience=8 dir_weight=0.40
+2026-05-18 14:37:29  ERROR     [TATACONSUM.NS] Model training failed: train_model() got an unexpected keyword argument 'num_layers'
+2026-05-18 14:37:29  INFO      [TATACONSUM.NS] ✓ Row appended | Close=1231.00 | TodayPred=0.00 | TomPred=0.00 | Err2=0.00% | Calib=—
+2026-05-18 14:37:31  INFO      [106/106] Processing: TATACHEM.NS
+2026-05-18 14:37:32  INFO      ─────────────────────────────────────────────────────────────────
+2026-05-18 14:37:32  INFO      [TATACHEM.NS] Starting pipeline for 2026-05-18
+2026-05-18 14:37:32  INFO      Created Excel template: TATACHEM.xlsx
+2026-05-18 14:37:32  INFO      [TATACHEM.NS] Fetching price data…
+2026-05-18 14:37:32  WARNING   [TATACHEM.NS] Data validation: 3 rows with zero volume — forward-filled
+2026-05-18 14:37:32  INFO      [TATACHEM.NS] Engineering features (parallel aux fetch)…
+2026-05-18 14:37:32  INFO      [TATACHEM.NS] Feature matrix: 571 rows × 31 cols
+2026-05-18 14:37:32  INFO      [TATACHEM.NS] Training config: mode=retrain | epochs=30 | patience=8 | dir_weight=0.40 | reason=no saved model
+2026-05-18 14:37:32  INFO      [TATACHEM.NS] Full training: epochs=30 patience=8 dir_weight=0.40
+2026-05-18 14:37:32  ERROR     [TATACHEM.NS] Model training failed: train_model() got an unexpected keyword argument 'num_layers'
+2026-05-18 14:37:32  INFO      [TATACHEM.NS] ✓ Row appended | Close=730.35 | TodayPred=0.00 | TomPred=0.00 | Err2=0.00% | Calib=—
+2026-05-18 14:37:34  INFO      ══ SUMMARY: 99 OK | 0 Skipped | 7 Errors ══

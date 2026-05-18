@@ -1,0 +1,532 @@
+{
+  "HDFCBANK.NS": {
+    "last_run": "2026-05-18",
+    "status": "ok",
+    "timestamp": "2026-05-18T14:32:57.547029"
+  },
+  "ICICIBANK.NS": {
+    "last_run": "2026-05-18",
+    "status": "ok",
+    "timestamp": "2026-05-18T14:32:59.967870"
+  },
+  "KOTAKBANK.NS": {
+    "last_run": "2026-05-18",
+    "status": "ok",
+    "timestamp": "2026-05-18T14:33:03.483715"
+  },
+  "SBIN.NS": {
+    "last_run": "2026-05-18",
+    "status": "ok",
+    "timestamp": "2026-05-18T14:33:06.032572"
+  },
+  "AXISBANK.NS": {
+    "last_run": "2026-05-18",
+    "status": "ok",
+    "timestamp": "2026-05-18T14:33:08.461133"
+  },
+  "BAJFINANCE.NS": {
+    "last_run": "2026-05-18",
+    "status": "ok",
+    "timestamp": "2026-05-18T14:33:11.026703"
+  },
+  "BAJAJFINSV.NS": {
+    "last_run": "2026-05-18",
+    "status": "ok",
+    "timestamp": "2026-05-18T14:33:13.661319"
+  },
+  "HDFCLIFE.NS": {
+    "last_run": "2026-05-18",
+    "status": "ok",
+    "timestamp": "2026-05-18T14:33:16.274844"
+  },
+  "SBILIFE.NS": {
+    "last_run": "2026-05-18",
+    "status": "ok",
+    "timestamp": "2026-05-18T14:33:18.810262"
+  },
+  "ICICIGI.NS": {
+    "last_run": "2026-05-18",
+    "status": "ok",
+    "timestamp": "2026-05-18T14:33:21.688749"
+  },
+  "INDUSINDBK.NS": {
+    "last_run": "2026-05-18",
+    "status": "ok",
+    "timestamp": "2026-05-18T14:33:24.270379"
+  },
+  "FEDERALBNK.NS": {
+    "last_run": "2026-05-18",
+    "status": "ok",
+    "timestamp": "2026-05-18T14:33:26.786936"
+  },
+  "BANDHANBNK.NS": {
+    "last_run": "2026-05-18",
+    "status": "ok",
+    "timestamp": "2026-05-18T14:33:29.272508"
+  },
+  "PNB.NS": {
+    "last_run": "2026-05-18",
+    "status": "ok",
+    "timestamp": "2026-05-18T14:33:31.845011"
+  },
+  "BANKBARODA.NS": {
+    "last_run": "2026-05-18",
+    "status": "ok",
+    "timestamp": "2026-05-18T14:33:34.424563"
+  },
+  "CANBK.NS": {
+    "last_run": "2026-05-18",
+    "status": "ok",
+    "timestamp": "2026-05-18T14:33:37.057233"
+  },
+  "MUTHOOTFIN.NS": {
+    "last_run": "2026-05-18",
+    "status": "ok",
+    "timestamp": "2026-05-18T14:33:39.480249"
+  },
+  "CHOLAFIN.NS": {
+    "last_run": "2026-05-18",
+    "status": "ok",
+    "timestamp": "2026-05-18T14:33:41.881028"
+  },
+  "SHRIRAMFIN.NS": {
+    "last_run": "2026-05-18",
+    "status": "ok",
+    "timestamp": "2026-05-18T14:33:44.404542"
+  },
+  "TCS.NS": {
+    "last_run": "2026-05-18",
+    "status": "ok",
+    "timestamp": "2026-05-18T14:33:46.839776"
+  },
+  "INFY.NS": {
+    "last_run": "2026-05-18",
+    "status": "ok",
+    "timestamp": "2026-05-18T14:33:49.383473"
+  },
+  "HCLTECH.NS": {
+    "last_run": "2026-05-18",
+    "status": "ok",
+    "timestamp": "2026-05-18T14:33:52.015837"
+  },
+  "WIPRO.NS": {
+    "last_run": "2026-05-18",
+    "status": "ok",
+    "timestamp": "2026-05-18T14:33:54.539911"
+  },
+  "TECHM.NS": {
+    "last_run": "2026-05-18",
+    "status": "ok",
+    "timestamp": "2026-05-18T14:33:57.041680"
+  },
+  "LTIM.NS": {
+    "last_run": "2026-05-18",
+    "status": "error",
+    "timestamp": "2026-05-18T14:34:00.816148"
+  },
+  "PERSISTENT.NS": {
+    "last_run": "2026-05-18",
+    "status": "ok",
+    "timestamp": "2026-05-18T14:34:02.946262"
+  },
+  "COFORGE.NS": {
+    "last_run": "2026-05-18",
+    "status": "ok",
+    "timestamp": "2026-05-18T14:34:05.642760"
+  },
+  "MPHASIS.NS": {
+    "last_run": "2026-05-18",
+    "status": "ok",
+    "timestamp": "2026-05-18T14:34:08.137883"
+  },
+  "RELIANCE.NS": {
+    "last_run": "2026-05-18",
+    "status": "ok",
+    "timestamp": "2026-05-18T14:34:10.531829"
+  },
+  "ONGC.NS": {
+    "last_run": "2026-05-18",
+    "status": "ok",
+    "timestamp": "2026-05-18T14:34:13.052295"
+  },
+  "BPCL.NS": {
+    "last_run": "2026-05-18",
+    "status": "ok",
+    "timestamp": "2026-05-18T14:34:15.701204"
+  },
+  "IOC.NS": {
+    "last_run": "2026-05-18",
+    "status": "ok",
+    "timestamp": "2026-05-18T14:34:18.134829"
+  },
+  "NTPC.NS": {
+    "last_run": "2026-05-18",
+    "status": "ok",
+    "timestamp": "2026-05-18T14:34:20.694356"
+  },
+  "POWERGRID.NS": {
+    "last_run": "2026-05-18",
+    "status": "ok",
+    "timestamp": "2026-05-18T14:34:23.088516"
+  },
+  "ADANIGREEN.NS": {
+    "last_run": "2026-05-18",
+    "status": "ok",
+    "timestamp": "2026-05-18T14:34:25.648602"
+  },
+  "ADANITRANS.NS": {
+    "last_run": "2026-05-18",
+    "status": "error",
+    "timestamp": "2026-05-18T14:34:28.575545"
+  },
+  "TATAPOWER.NS": {
+    "last_run": "2026-05-18",
+    "status": "ok",
+    "timestamp": "2026-05-18T14:34:30.791926"
+  },
+  "GAIL.NS": {
+    "last_run": "2026-05-18",
+    "status": "ok",
+    "timestamp": "2026-05-18T14:34:33.495654"
+  },
+  "HINDUNILVR.NS": {
+    "last_run": "2026-05-18",
+    "status": "ok",
+    "timestamp": "2026-05-18T14:34:36.100544"
+  },
+  "ITC.NS": {
+    "last_run": "2026-05-18",
+    "status": "ok",
+    "timestamp": "2026-05-18T14:34:38.595585"
+  },
+  "NESTLEIND.NS": {
+    "last_run": "2026-05-18",
+    "status": "ok",
+    "timestamp": "2026-05-18T14:34:41.439801"
+  },
+  "DABUR.NS": {
+    "last_run": "2026-05-18",
+    "status": "ok",
+    "timestamp": "2026-05-18T14:34:43.909629"
+  },
+  "MARICO.NS": {
+    "last_run": "2026-05-18",
+    "status": "ok",
+    "timestamp": "2026-05-18T14:34:46.528113"
+  },
+  "GODREJCP.NS": {
+    "last_run": "2026-05-18",
+    "status": "ok",
+    "timestamp": "2026-05-18T14:34:49.088046"
+  },
+  "BRITANNIA.NS": {
+    "last_run": "2026-05-18",
+    "status": "ok",
+    "timestamp": "2026-05-18T14:34:51.632461"
+  },
+  "COLPAL.NS": {
+    "last_run": "2026-05-18",
+    "status": "ok",
+    "timestamp": "2026-05-18T14:34:54.056108"
+  },
+  "EMAMILTD.NS": {
+    "last_run": "2026-05-18",
+    "status": "ok",
+    "timestamp": "2026-05-18T14:34:57.226862"
+  },
+  "LT.NS": {
+    "last_run": "2026-05-18",
+    "status": "ok",
+    "timestamp": "2026-05-18T14:34:59.765440"
+  },
+  "ADANIENT.NS": {
+    "last_run": "2026-05-18",
+    "status": "ok",
+    "timestamp": "2026-05-18T14:35:02.575972"
+  },
+  "ADANIPORTS.NS": {
+    "last_run": "2026-05-18",
+    "status": "ok",
+    "timestamp": "2026-05-18T14:35:05.130554"
+  },
+  "SIEMENS.NS": {
+    "last_run": "2026-05-18",
+    "status": "ok",
+    "timestamp": "2026-05-18T14:35:07.883491"
+  },
+  "ABB.NS": {
+    "last_run": "2026-05-18",
+    "status": "ok",
+    "timestamp": "2026-05-18T14:35:10.547207"
+  },
+  "HAVELLS.NS": {
+    "last_run": "2026-05-18",
+    "status": "ok",
+    "timestamp": "2026-05-18T14:35:13.294675"
+  },
+  "BHEL.NS": {
+    "last_run": "2026-05-18",
+    "status": "ok",
+    "timestamp": "2026-05-18T14:35:16.007212"
+  },
+  "CUMMINSIND.NS": {
+    "last_run": "2026-05-18",
+    "status": "ok",
+    "timestamp": "2026-05-18T14:35:18.420971"
+  },
+  "THERMAX.NS": {
+    "last_run": "2026-05-18",
+    "status": "ok",
+    "timestamp": "2026-05-18T14:35:21.145356"
+  },
+  "MARUTI.NS": {
+    "last_run": "2026-05-18",
+    "status": "ok",
+    "timestamp": "2026-05-18T14:35:24.057882"
+  },
+  "TATAMOTORS.NS": {
+    "last_run": "2026-05-18",
+    "status": "error",
+    "timestamp": "2026-05-18T14:35:26.895815"
+  },
+  "M&M.NS": {
+    "last_run": "2026-05-18",
+    "status": "ok",
+    "timestamp": "2026-05-18T14:35:29.123421"
+  },
+  "BAJAJ-AUTO.NS": {
+    "last_run": "2026-05-18",
+    "status": "ok",
+    "timestamp": "2026-05-18T14:35:31.886099"
+  },
+  "EICHERMOT.NS": {
+    "last_run": "2026-05-18",
+    "status": "ok",
+    "timestamp": "2026-05-18T14:35:34.509259"
+  },
+  "HEROMOTOCO.NS": {
+    "last_run": "2026-05-18",
+    "status": "ok",
+    "timestamp": "2026-05-18T14:35:37.135473"
+  },
+  "TVSMOTORS.NS": {
+    "last_run": "2026-05-18",
+    "status": "error",
+    "timestamp": "2026-05-18T14:35:39.805497"
+  },
+  "ASHOKLEY.NS": {
+    "last_run": "2026-05-18",
+    "status": "ok",
+    "timestamp": "2026-05-18T14:35:42.162838"
+  },
+  "SUNPHARMA.NS": {
+    "last_run": "2026-05-18",
+    "status": "ok",
+    "timestamp": "2026-05-18T14:35:45.049687"
+  },
+  "DRREDDY.NS": {
+    "last_run": "2026-05-18",
+    "status": "ok",
+    "timestamp": "2026-05-18T14:35:47.645665"
+  },
+  "CIPLA.NS": {
+    "last_run": "2026-05-18",
+    "status": "ok",
+    "timestamp": "2026-05-18T14:35:50.492157"
+  },
+  "DIVISLAB.NS": {
+    "last_run": "2026-05-18",
+    "status": "ok",
+    "timestamp": "2026-05-18T14:35:53.239315"
+  },
+  "APOLLOHOSP.NS": {
+    "last_run": "2026-05-18",
+    "status": "ok",
+    "timestamp": "2026-05-18T14:35:56.190047"
+  },
+  "LUPIN.NS": {
+    "last_run": "2026-05-18",
+    "status": "ok",
+    "timestamp": "2026-05-18T14:35:59.119424"
+  },
+  "TORNTPHARM.NS": {
+    "last_run": "2026-05-18",
+    "status": "ok",
+    "timestamp": "2026-05-18T14:36:01.678423"
+  },
+  "AUROPHARMA.NS": {
+    "last_run": "2026-05-18",
+    "status": "ok",
+    "timestamp": "2026-05-18T14:36:04.423567"
+  },
+  "ALKEM.NS": {
+    "last_run": "2026-05-18",
+    "status": "ok",
+    "timestamp": "2026-05-18T14:36:07.210530"
+  },
+  "TATASTEEL.NS": {
+    "last_run": "2026-05-18",
+    "status": "ok",
+    "timestamp": "2026-05-18T14:36:09.983153"
+  },
+  "JSWSTEEL.NS": {
+    "last_run": "2026-05-18",
+    "status": "ok",
+    "timestamp": "2026-05-18T14:36:12.668643"
+  },
+  "HINDALCO.NS": {
+    "last_run": "2026-05-18",
+    "status": "ok",
+    "timestamp": "2026-05-18T14:36:15.232202"
+  },
+  "VEDL.NS": {
+    "last_run": "2026-05-18",
+    "status": "ok",
+    "timestamp": "2026-05-18T14:36:17.750303"
+  },
+  "COALINDIA.NS": {
+    "last_run": "2026-05-18",
+    "status": "ok",
+    "timestamp": "2026-05-18T14:36:20.236695"
+  },
+  "NMDC.NS": {
+    "last_run": "2026-05-18",
+    "status": "ok",
+    "timestamp": "2026-05-18T14:36:22.963273"
+  },
+  "SAIL.NS": {
+    "last_run": "2026-05-18",
+    "status": "ok",
+    "timestamp": "2026-05-18T14:36:25.465813"
+  },
+  "ULTRACEMCO.NS": {
+    "last_run": "2026-05-18",
+    "status": "ok",
+    "timestamp": "2026-05-18T14:36:27.950530"
+  },
+  "AMBUJACEM.NS": {
+    "last_run": "2026-05-18",
+    "status": "ok",
+    "timestamp": "2026-05-18T14:36:30.411589"
+  },
+  "ACC.NS": {
+    "last_run": "2026-05-18",
+    "status": "ok",
+    "timestamp": "2026-05-18T14:36:32.831580"
+  },
+  "SHREECEM.NS": {
+    "last_run": "2026-05-18",
+    "status": "ok",
+    "timestamp": "2026-05-18T14:36:35.363449"
+  },
+  "BHARTIARTL.NS": {
+    "last_run": "2026-05-18",
+    "status": "ok",
+    "timestamp": "2026-05-18T14:36:37.854154"
+  },
+  "VODAFONEIDEA.NS": {
+    "last_run": "2026-05-18",
+    "status": "error",
+    "timestamp": "2026-05-18T14:36:40.553424"
+  },
+  "DLF.NS": {
+    "last_run": "2026-05-18",
+    "status": "ok",
+    "timestamp": "2026-05-18T14:36:42.688273"
+  },
+  "GODREJPROP.NS": {
+    "last_run": "2026-05-18",
+    "status": "ok",
+    "timestamp": "2026-05-18T14:36:45.444322"
+  },
+  "PRESTIGE.NS": {
+    "last_run": "2026-05-18",
+    "status": "ok",
+    "timestamp": "2026-05-18T14:36:48.222612"
+  },
+  "TITAN.NS": {
+    "last_run": "2026-05-18",
+    "status": "ok",
+    "timestamp": "2026-05-18T14:36:50.610573"
+  },
+  "TRENT.NS": {
+    "last_run": "2026-05-18",
+    "status": "ok",
+    "timestamp": "2026-05-18T14:36:53.262708"
+  },
+  "DMART.NS": {
+    "last_run": "2026-05-18",
+    "status": "ok",
+    "timestamp": "2026-05-18T14:36:55.814997"
+  },
+  "NYKAA.NS": {
+    "last_run": "2026-05-18",
+    "status": "ok",
+    "timestamp": "2026-05-18T14:36:58.230057"
+  },
+  "ZOMATO.NS": {
+    "last_run": "2026-05-18",
+    "status": "error",
+    "timestamp": "2026-05-18T14:37:01.291320"
+  },
+  "PAYTM.NS": {
+    "last_run": "2026-05-18",
+    "status": "ok",
+    "timestamp": "2026-05-18T14:37:03.332495"
+  },
+  "INDIAMART.NS": {
+    "last_run": "2026-05-18",
+    "status": "ok",
+    "timestamp": "2026-05-18T14:37:05.936887"
+  },
+  "PIDILITIND.NS": {
+    "last_run": "2026-05-18",
+    "status": "ok",
+    "timestamp": "2026-05-18T14:37:08.633997"
+  },
+  "ASIANPAINT.NS": {
+    "last_run": "2026-05-18",
+    "status": "ok",
+    "timestamp": "2026-05-18T14:37:11.096950"
+  },
+  "BERGER.NS": {
+    "last_run": "2026-05-18",
+    "status": "error",
+    "timestamp": "2026-05-18T14:37:14.211312"
+  },
+  "SRF.NS": {
+    "last_run": "2026-05-18",
+    "status": "ok",
+    "timestamp": "2026-05-18T14:37:16.388183"
+  },
+  "IRCTC.NS": {
+    "last_run": "2026-05-18",
+    "status": "ok",
+    "timestamp": "2026-05-18T14:37:18.927797"
+  },
+  "CONCOR.NS": {
+    "last_run": "2026-05-18",
+    "status": "ok",
+    "timestamp": "2026-05-18T14:37:21.423422"
+  },
+  "UPL.NS": {
+    "last_run": "2026-05-18",
+    "status": "ok",
+    "timestamp": "2026-05-18T14:37:23.999918"
+  },
+  "PIIND.NS": {
+    "last_run": "2026-05-18",
+    "status": "ok",
+    "timestamp": "2026-05-18T14:37:26.853485"
+  },
+  "TATACONSUM.NS": {
+    "last_run": "2026-05-18",
+    "status": "ok",
+    "timestamp": "2026-05-18T14:37:29.598970"
+  },
+  "TATACHEM.NS": {
+    "last_run": "2026-05-18",
+    "status": "ok",
+    "timestamp": "2026-05-18T14:37:32.523732"
+  }
+}
